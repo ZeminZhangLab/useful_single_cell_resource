@@ -8,7 +8,7 @@ conventional.T.cell.markers <- c(
 effector.markers <- c(
   'GZMA', # granzyme expression during the differentiation process of memory CD8+ T cells might be as follows: GrA+/GrB–/GrK+ ? GrA+/GrB+/GrK+ ? GrA+/GrB+/GrK– [12]
   'GZMB', # granzyme expression during the differentiation process of memory CD8+ T cells might be as follows: GrA+/GrB–/GrK+ ? GrA+/GrB+/GrK+ ? GrA+/GrB+/GrK– [12]
-  'GZMK', # granzyme expression during the differentiation process of memory CD8+ T cells might be as follows: GrA+/GrB–/GrK+ ? GrA+/GrB+/GrK+ ? GrA+/GrB+/GrK– [12]
+  'GZMK', # granzyme expression during the differentiation process of memory CD8+ T cells might be as follows: GrA+/GrB–/GrK+ ? GrA+/GrB+/GrK+ ? GrA+/GrB+/GrK– [12] ranked in early effector memory subset [3, 13]
   'GZMH',
   'GNLY',
   'PRF1',
@@ -29,6 +29,7 @@ naive.markers <- c(
 memory.markers <- c(
   "CD44", # cell adhesion molecule, expressed "in many cell types" [8]. expressed on almost all T cells [3]. indicated as 'effector-memory T cell marker' [8, 9]
   "CCR5", # breast cancer expression & target, involved in HIV. T cell function not well established [10]. expression related to but not well-distinguish Tem [2, 3]. Suggested as Tem marker 
+  "GZMK", # see above
 )
 
 
@@ -47,5 +48,6 @@ memory.markers <- c(
 # 10. https://en.wikipedia.org/wiki/CCR5
 # 11. Three Memory Subsets of Human CD8 T Cells Differently Expressing Three Cytolytic Effector Molecules, 
 # 12. Differential expression of human granzymes A, B, and K in natural killer cells and during CD8+ T cell differentiation in peripheral blood
+# 13. pan-T zhanglab
 
 
