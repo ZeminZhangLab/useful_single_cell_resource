@@ -27,9 +27,11 @@ naive.markers <- c(
 )
 
 memory.markers <- c(
+  "CXCR3", # ligands: CXCL9, CXCL10 and CXCL11 are commonly produced by local cells in inflammatory lesion, suggesting that CXCR3 and its chemokines participate in the recruitment of inflammatory cells[14]. marker of Tem[14, 3].
   "CD44", # cell adhesion molecule, expressed "in many cell types" [8]. expressed on almost all T cells [3]. indicated as 'effector-memory T cell marker' [8, 9]
   "CCR5", # breast cancer expression & target, involved in HIV. T cell function not well established [10]. expression related to but not well-distinguish Tem [2, 3]. Suggested as Tem marker 
   "GZMK", # see above
+
 )
 
 
@@ -49,5 +51,6 @@ memory.markers <- c(
 # 11. Three Memory Subsets of Human CD8 T Cells Differently Expressing Three Cytolytic Effector Molecules, 
 # 12. Differential expression of human granzymes A, B, and K in natural killer cells and during CD8+ T cell differentiation in peripheral blood
 # 13. pan-T zhanglab
+# 14. https://en.wikipedia.org/wiki/CXCR3
 
 
