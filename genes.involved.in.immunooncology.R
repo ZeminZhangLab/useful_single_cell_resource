@@ -32,14 +32,17 @@ memory.markers <- c(
   "CXCR4", # expressed in almost all T cells but slightly higer in Tem. ranked as marker of Tem[3]. function similar to CXCR3, expressed in a variety of immune cells [15]
   "CXCR3", # ligands: CXCL9, CXCL10 and CXCL11 are commonly produced by local cells in inflammatory lesion, suggesting that CXCR3 and its chemokines participate in the recruitment of inflammatory cells[14]. marker of Tem[14, 3].
   "CD44", # cell adhesion molecule, expressed "in many cell types" [8]. expressed on almost all T cells [3]. indicated as 'effector-memory T cell marker' [8, 9]
-  "CCR5", # breast cancer expression & target, involved in HIV. T cell function not well established [10]. expression related to but not well-distinguish Tem [2, 3]. Suggested as Tem marker [11].
+  "CCR5", # breast cancer expression & target, involved in HIV. T cell function not well established [10]. expression related to but not well-distinguish Tem [2, 3]. Suggested as Tem marker [11]. likely that CCR5 plays a role in inflammatory responses to infection, though its exact role in normal immune function is unclear[10]
   "GZMK", # see above
 
   
   
 )
 
+inflamatory.markers <- c(
 
+  "CCL4", # interacts with CCR5. chemoattractant for natural killer cells, monocytes and a variety of other immune cells. produced by: neutrophils, monocytes, B cells, T cells, fibroblasts, endothelial cells, and epithelial cells. [16]
+)
   
 
 # references:
@@ -53,10 +56,11 @@ memory.markers <- c(
 # 8. https://en.wikipedia.org/wiki/CD44
 # 9. Memory T Cell Subsets, Migration Patterns, and Tissue Residence, annual review immunology, 2013
 # 10. https://en.wikipedia.org/wiki/CCR5
-# 11. Three Memory Subsets of Human CD8 T Cells Differently Expressing Three Cytolytic Effector Molecules, 
+# 11. Three Memory Subsets of Human CD8 T Cells Differently Expressing Three Cytolytic Effector Molecules, 
 # 12. Differential expression of human granzymes A, B, and K in natural killer cells and during CD8+ T cell differentiation in peripheral blood
 # 13. pan-T zhanglab
 # 14. https://en.wikipedia.org/wiki/CXCR3
 # 15. https://en.wikipedia.org/wiki/CXCR4
+# 16. https://en.wikipedia.org/wiki/CCL4
 
 
