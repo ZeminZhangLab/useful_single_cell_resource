@@ -17,6 +17,7 @@ effector.markers <- c(
   'PRF1',
   'IFNG'
   "CX3CR1", # seem to be a good marker. associated with effector T cell subset although function not very clear[20]
+  "KLRG1", # immune checkpoint with less obvious functions than PD1, etc. considered as a 'senescent marker' expressed in effector, etc [21]
 )
 
 naive.markers <- c(
@@ -86,3 +87,4 @@ homing.related <- c(
 # 18. Memory T Cell Subsets, Migration Patterns, and Tissue Residence, Annual review
 # 19. https://www.genecards.org/cgi-bin/carddisp.pl?gene=ZNF683
 # 20. (2015). Functional classification of memory CD8(+) T cells by CX3CR1 expression. Nat. Commun.
+# 21. https://en.wikipedia.org/wiki/KLRG1
