@@ -36,6 +36,12 @@ memory.markers <- c(
   "GZMK", # see above
 )
 
+resident.markers <-c(
+
+  "CD69", # [18] The general idea is straightforward in that CD69 & ITGAE are related to cell-adhesion molecules. Binding parteners of CD69 & CD103 is expressed in tissue (epithelial, etc? check [18])
+  "ITGAE", # also CD103 [18]
+)
+
 inflamatory.markers <- c(
 
   "CCL4", # interacts with CCR5. chemoattractant for natural killer cells, monocytes and a variety of other immune cells. produced by: neutrophils, monocytes, B cells, T cells, fibroblasts, endothelial cells, and epithelial cells. [16]
@@ -64,5 +70,5 @@ homing.related <- c(
 # 15. https://en.wikipedia.org/wiki/CXCR4
 # 16. https://en.wikipedia.org/wiki/CCL4
 # 17. https://www.genecards.org/cgi-bin/carddisp.pl?gene=GPR183
-
+# 18. Memory T Cell Subsets, Migration Patterns, and Tissue Residence, Annual review
 
