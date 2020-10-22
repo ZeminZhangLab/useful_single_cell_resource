@@ -16,7 +16,7 @@ effector.markers <- c(
   'GNLY',
   'PRF1',
   'IFNG'
-  "CX3CR1", # seem to be a good marker. associated with effector T cell subset although function not very clear[20]
+  "CX3CR1", # seem to be a good marker. associated with effector T cell subset although function not very clear[20] seems only used by zhanglab, not that good in [22]
   "KLRG1", # immune checkpoint with less obvious functions than PD1, etc. considered as a 'senescent marker' expressed in effector, etc [21]
 )
 
@@ -88,3 +88,4 @@ homing.related <- c(
 # 19. https://www.genecards.org/cgi-bin/carddisp.pl?gene=ZNF683
 # 20. (2015). Functional classification of memory CD8(+) T cells by CX3CR1 expression. Nat. Commun.
 # 21. https://en.wikipedia.org/wiki/KLRG1
+# 22. Clonal replacement of tumor-specific T cells following PD-1 blockade, Nat Med 2019
