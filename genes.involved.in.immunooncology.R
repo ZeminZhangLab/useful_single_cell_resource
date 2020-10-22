@@ -13,6 +13,7 @@ cd8.Trm <- "CD8+ T resident memory"
 cd8.Tex <- "CD8+ T exhausted"
 cd4.Treg <- "CD4+ T regulatory"
 cd4.Tn <- "CD4+ T naive"
+cd4.Tex <- "CD4+ T exhausted"
 
 #================================================================#
 # useful markers
