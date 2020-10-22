@@ -34,16 +34,17 @@ memory.markers <- c(
   "CD44", # cell adhesion molecule, expressed "in many cell types" [8]. expressed on almost all T cells [3]. indicated as 'effector-memory T cell marker' [8, 9]
   "CCR5", # breast cancer expression & target, involved in HIV. T cell function not well established [10]. expression related to but not well-distinguish Tem [2, 3]. Suggested as Tem marker [11]. likely that CCR5 plays a role in inflammatory responses to infection, though its exact role in normal immune function is unclear[10]
   "GZMK", # see above
-
-  
-  
 )
 
 inflamatory.markers <- c(
 
   "CCL4", # interacts with CCR5. chemoattractant for natural killer cells, monocytes and a variety of other immune cells. produced by: neutrophils, monocytes, B cells, T cells, fibroblasts, endothelial cells, and epithelial cells. [16]
 )
-  
+
+homing.related <- c(
+
+  "GPR183", # ranked for Tcm [3] but not very distinguising. functions not very clear, seem to relate to T/B homing within lymph nodes (generally related to 'central') but well summarized [17]
+)
 
 # references:
 # 1. Landscape of infiltrating T cells in liver cancer revealed by single-cell sequencing, Cell, 2017
@@ -62,5 +63,6 @@ inflamatory.markers <- c(
 # 14. https://en.wikipedia.org/wiki/CXCR3
 # 15. https://en.wikipedia.org/wiki/CXCR4
 # 16. https://en.wikipedia.org/wiki/CCL4
+# 17. https://www.genecards.org/cgi-bin/carddisp.pl?gene=GPR183
 
 
