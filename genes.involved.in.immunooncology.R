@@ -1,6 +1,21 @@
 # random comments
 # it could be noted that some 'marker for a certain cell type' is not agreed by different datasets. Personal idea is that when to define cell types, prioritize genes with known biological functions, rather than those computationally identified.
 
+#================================================================#
+# use standard naming system, store in variable
+#================================================================#
+
+# general tumor infiltraing T cell types
+cd8.Tn <- "CD8+ T naive"
+cd8.Teff <- "CD8+ T effector"
+cd8.Tem <- "CD8+ T effector memory"
+cd8.Trm <- "CD8+ T resident memory"
+cd8.Tex <- "CD8+ T exhausted"
+
+#================================================================#
+# useful markers
+#================================================================#
+
 conventional.T.cell.markers <- c(
   'CD3D',
   'CD4',
