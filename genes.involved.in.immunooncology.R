@@ -11,6 +11,7 @@ cd8.Teff <- "CD8+ T effector"
 cd8.Tem <- "CD8+ T effector memory"
 cd8.Trm <- "CD8+ T resident memory"
 cd8.Tex <- "CD8+ T exhausted"
+cd4.Treg <- "CD4+ T regulatory"
 
 #================================================================#
 # useful markers
