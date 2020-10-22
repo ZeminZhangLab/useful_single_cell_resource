@@ -42,6 +42,14 @@ resident.markers <-c(
   "ITGAE", # also CD103 [18]
 )
 
+exhaustion.markers <- c(
+
+  "PDCD1",
+  "TIGIT",
+  "LAYN"
+  
+)
+
 inflamatory.markers <- c(
 
   "CCL4", # interacts with CCR5. chemoattractant for natural killer cells, monocytes and a variety of other immune cells. produced by: neutrophils, monocytes, B cells, T cells, fibroblasts, endothelial cells, and epithelial cells. [16]
