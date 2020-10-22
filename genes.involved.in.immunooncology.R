@@ -16,6 +16,7 @@ effector.markers <- c(
   'GNLY',
   'PRF1',
   'IFNG'
+  "CX3CR1", # seem to be a good marker. associated with effector T cell subset although function not very clear[20]
 )
 
 naive.markers <- c(
@@ -84,3 +85,4 @@ homing.related <- c(
 # 17. https://www.genecards.org/cgi-bin/carddisp.pl?gene=GPR183
 # 18. Memory T Cell Subsets, Migration Patterns, and Tissue Residence, Annual review
 # 19. https://www.genecards.org/cgi-bin/carddisp.pl?gene=ZNF683
+# 20. (2015). Functional classification of memory CD8(+) T cells by CX3CR1 expression. Nat. Commun.
