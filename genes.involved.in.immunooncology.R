@@ -12,6 +12,7 @@ cd8.Tem <- "CD8+ T effector memory"
 cd8.Trm <- "CD8+ T resident memory"
 cd8.Tex <- "CD8+ T exhausted"
 cd4.Treg <- "CD4+ T regulatory"
+cd4.Tn <- "CD4+ T naive"
 
 #================================================================#
 # useful markers
@@ -82,6 +83,11 @@ homing.related <- c(
   "GPR183", # ranked for Tcm [3] but not very distinguising. functions not very clear, seem to relate to T/B homing within lymph nodes (generally related to 'central') but well summarized [17]
 )
 
+follicular.markers <- c(  # Distinguishing features of TFH cells are the expression of CXCR5, PD-1, SAP (SH2D1A), IL-21, and ICOS, among other molecules, and the absence of Blimp-1 ( prdm1). TFH cells are important for the for- mation of germinal centers [23]
+  "CXCR5", # [23]
+  "BCL6", # TFH cells de- pend on expression of the master regulator transcription factor Bcl6. [23]
+)
+
 # references:
 # 1. Landscape of infiltrating T cells in liver cancer revealed by single-cell sequencing, Cell, 2017
 # 2. Global characterization of T cells in non-small-cell lung cancer by single-cell sequencing, Nature Medicine, 2018
@@ -105,3 +111,6 @@ homing.related <- c(
 # 20. (2015). Functional classification of memory CD8(+) T cells by CX3CR1 expression. Nat. Commun.
 # 21. https://en.wikipedia.org/wiki/KLRG1
 # 22. Clonal replacement of tumor-specific T cells following PD-1 blockade, Nat Med 2019
+# 23. Follicular Helper CD4 T Cells (TFH), Annual Reviews immunology, 2011
+
+
