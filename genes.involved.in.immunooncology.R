@@ -1,3 +1,6 @@
+# random comments
+# it could be noted that some 'marker for a certain cell type' is not agreed by different datasets. Personal idea is that when to define cell types, prioritize genes with known biological functions, rather than those computationally identified.
+
 conventional.T.cell.markers <- c(
   'CD3D',
   'CD4',
@@ -40,6 +43,7 @@ resident.markers <-c(
 
   "CD69", # [18] The general idea is straightforward in that CD69 & ITGAE are related to cell-adhesion molecules. Binding parteners of CD69 & CD103 is expressed in tissue (epithelial, etc? check [18])
   "ITGAE", # also CD103 [18]
+  "ZNF683", # related to Trm [13, 19]
 )
 
 exhaustion.markers <- c(
@@ -79,4 +83,4 @@ homing.related <- c(
 # 16. https://en.wikipedia.org/wiki/CCL4
 # 17. https://www.genecards.org/cgi-bin/carddisp.pl?gene=GPR183
 # 18. Memory T Cell Subsets, Migration Patterns, and Tissue Residence, Annual review
-
+# 19. https://www.genecards.org/cgi-bin/carddisp.pl?gene=ZNF683
