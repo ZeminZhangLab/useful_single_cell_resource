@@ -91,6 +91,7 @@ follicular.markers <- c(  # Distinguishing features of TFH cells are the express
 
 t.cell.transcription.factors <- c(
   "TCF7", # expressed exclusively in 'progenitor exhausted' [24] this conclusion seem to be supported by many many studies and TCF7 subset associates with improved prognosis. [25~27]
+  "EOMES", # TODO
 )
 
 
