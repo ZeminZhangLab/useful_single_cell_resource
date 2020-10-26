@@ -92,6 +92,7 @@ follicular.markers <- c(  # Distinguishing features of TFH cells are the express
 t.cell.transcription.factors <- c(
   "TCF7", # expressed exclusively in 'progenitor exhausted' [24] this conclusion seem to be supported by many many studies and TCF7 subset associates with improved prognosis. [25~27]
   "EOMES", # TODO
+  "TOX" # highly expressed in dysfuntional T cells in tumor and exhaustive T cells in chronic viral infection. high expression of TOX correlated with high expression of inhibitory receptors and low expression of TCF7[28] validated in [6]. also expressed in Treg & CD4 Tex [1, 6]
 )
 
 
@@ -123,5 +124,5 @@ t.cell.transcription.factors <- c(
 # 25. Defining T Cell States Associated with Response to Checkpoint Immunotherapy in Melanoma, Cell, 2018
 # 26. Defining CD8+ T cells that provide the proliferative burst after PD-1 therapy, Nature, 2016
 # 27. Intratumoral Tcf1+PD-1+CD8+ T Cells with Stem-like Properties Promote Tumor Control in Response to Vaccination and Checkpoint Blockade Immunotherapy, Immunity, 2019
-
+# 28. TOX is a critical regulator of tumour-specific T cell differentiation, Nature, 2019
 
