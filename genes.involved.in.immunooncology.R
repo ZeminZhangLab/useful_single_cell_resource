@@ -89,6 +89,11 @@ follicular.markers <- c(  # Distinguishing features of TFH cells are the express
   "BCL6", # TFH cells de- pend on expression of the master regulator transcription factor Bcl6. [23]
 )
 
+t.cell.transcription.factors <- c(
+  "TCF7", # expressed exclusively in 'progenitor exhausted' [24] this conclusion seem to be supported by many many studies and TCF7 subset associates with improved prognosis. [25, 26]
+)
+
+
 # references:
 # 1. Landscape of infiltrating T cells in liver cancer revealed by single-cell sequencing, Cell, 2017
 # 2. Global characterization of T cells in non-small-cell lung cancer by single-cell sequencing, Nature Medicine, 2018
@@ -113,5 +118,7 @@ follicular.markers <- c(  # Distinguishing features of TFH cells are the express
 # 21. https://en.wikipedia.org/wiki/KLRG1
 # 22. Clonal replacement of tumor-specific T cells following PD-1 blockade, Nat Med 2019
 # 23. Follicular Helper CD4 T Cells (TFH), Annual Reviews immunology, 2011
-
+# 24. Subsets of exhausted CD8+ T cells differentially mediate tumor control and respond to checkpoint blockade, Nature immunology 2019
+# 25. Defining T Cell States Associated with Response to Checkpoint Immunotherapy in Melanoma, Cell, 2018
+# 26. Defining CD8+ T cells that provide the proliferative burst after PD-1 therapy, Nature, 2016
 
