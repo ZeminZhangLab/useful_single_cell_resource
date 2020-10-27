@@ -104,7 +104,7 @@ t.cell.transcription.factors <- c(
   "IKZF2",  # identified in [31] to correlate with TOX. zinc finger as name suggests, involved in hematopoietic development [33] 
   "NR4A2", # claimed to be expressed in Tex [34], validated but not that significantly or consistently across datasets [1~3]
   "MAF", # claimed to be expressed in Tex [34], validated but not that significantly or consistently across datasets [1~3]
-  "EOMES", # TODO
+  "EOMES", # Doesn't seem very solid: as tumor progressed, Eomes expression was elevated in tumor-infiltrating CD8+ T cells, especially in PD-1+Tim-3+ exhausted CD8+ T cells. Complete loss of Eomes in T cells resulted in impaired development of anti-tumor CTLs, whereas deletion of one allele of Eomes in T cells decreased development of exhausted CD8+ T cells, which offered better tumor control. [35]
 )
 
 other.genes.DNA.binding <- c(
@@ -145,3 +145,4 @@ other.genes.DNA.binding <- c(
 # 32. https://en.wikipedia.org/wiki/SETBP1
 # 33. https://en.wikipedia.org/wiki/IKZF2
 # 34. Molecular profiling of CD8 T cells in autochthonous melanoma identifies Maf as driver of exhaustion, EMBO 2015
+# 35. High Levels of Eomes Promote Exhaustion of Anti-tumor CD8+ T Cells, Trends in immunology
