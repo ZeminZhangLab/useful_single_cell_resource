@@ -98,7 +98,7 @@ t.cell.transcription.factors <- c(
 
 other.genes.DNA.binding <- c(
   "SETBP1", # identified in [31] to correlate with TOX. acts like a DNA-binding protein [32] express but not significantly in Tex & Treg [1, 3] (low detection reasonable, given being low-expression DNA binding proteins). Might be upstream regulators of TOX, etc. seems not very important.
-  "", 
+  "IKZF2",  # identified in [31] to correlate with TOX. zinc finger as name suggests, involved in hematopoietic development [33] 
 )
 
 # references:
@@ -134,3 +134,4 @@ other.genes.DNA.binding <- c(
 # 30. TOX reinforces the phenotype and longevity of exhausted T cells in chronic viral infection, Nature, 2019
 # 31. TOX transcript+ionally and epigenetically programs CD8 T cell exhaustion, Nature, 2019
 # 32. https://en.wikipedia.org/wiki/SETBP1
+# 33. https://en.wikipedia.org/wiki/IKZF2
