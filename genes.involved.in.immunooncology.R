@@ -96,6 +96,10 @@ t.cell.transcription.factors <- c(
   "NFATC2", # encodes NFAT1 [29], NFAT1 claimed to regulate TOX [28]. NFATs expression not that differential [1]
 )
 
+other.genes.DNA.binding <- c(
+  "SETBP1", # identified in [31] to correlate with TOX. acts like a DNA-binding protein [32] express but not significantly in Tex & Treg [1, 3] (low detection reasonable, given being low-expression DNA binding proteins). Might be upstream regulators of TOX, etc. seems not very important.
+  "", 
+)
 
 # references:
 # 1. Landscape of infiltrating T cells in liver cancer revealed by single-cell sequencing, Cell, 2017
@@ -129,4 +133,4 @@ t.cell.transcription.factors <- c(
 # 29. https://www.cellsignal.com/products/primary-antibodies/nfat1-antibody/4389
 # 30. TOX reinforces the phenotype and longevity of exhausted T cells in chronic viral infection, Nature, 2019
 # 31. TOX transcript+ionally and epigenetically programs CD8 T cell exhaustion, Nature, 2019
-
+# 32. https://en.wikipedia.org/wiki/SETBP1
