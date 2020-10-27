@@ -89,7 +89,10 @@ follicular.markers <- c(  # Distinguishing features of TFH cells are the express
   "BCL6", # TFH cells de- pend on expression of the master regulator transcription factor Bcl6. [23]
 )
 
-t.cell.transcription.factors <- c(
+t.cell.transcription.factors <- c(  
+  
+  # it seems easy to discover a lot of these things using 'correlation in transcriptome', starting from some keynote genes such as TOX, TCF7
+  
   "TCF7", # expressed exclusively in 'progenitor exhausted' [24] this conclusion seem to be supported by many many studies and TCF7 subset associates with improved prognosis. [25~27]
   "EOMES", # TODO
   "TOX", # highly expressed in dysfuntional T cells in tumor and exhaustive T cells in chronic viral infection. high expression of TOX correlated with high expression of inhibitory receptors and low expression of TCF7[28] validated in [6]. also expressed in Treg & CD4 Tex [1, 6] plays in the elegant control of long-time T cell activation (exhaustion), have suggested functions in TCF1 cells [30] dispensable for Tem but essential for Tex [31]
