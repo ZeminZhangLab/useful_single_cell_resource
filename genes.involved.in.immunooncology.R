@@ -91,6 +91,8 @@ follicular.markers <- c(  # Distinguishing features of TFH cells are the express
 
 t.cell.transcription.factors <- c(  
   
+  # do note transcription factors are often considered undruggable, couldn't be drug targets.
+  
   # it seems easy to discover a lot of these things using 'correlation in transcriptome', starting from some keynote genes such as TOX, TCF7
   # most of these are summarized nicely in box2 [5]
   
