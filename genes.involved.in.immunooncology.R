@@ -36,6 +36,7 @@ effector.markers <- c(
   'IFNG'
   "CX3CR1", # seem to be a good marker. associated with effector T cell subset although function not very clear[20] seems only used by zhanglab, not that good in [22]
   "KLRG1", # immune checkpoint with less obvious functions than PD1, etc. considered as a 'senescent marker' expressed in effector, etc [21]
+  "NKG7", # transmembrane protein localized on vesicles containing cytotoxic molecules. relocalizing to plasma membrane following membrane fusion of vesicles with plasma membrane, when T/NK cells recognize target cells and form a immunological synapse. reduced LAMP1 on plasma membrane in NKG7 difficiency suggests a role in vesicle trafficing. [36, 37] expressed in a all but naive CD8 T cells. [1~3] so may not contribute to T cell exhuastion. claimed roles in CD4 T cells [36~37]
 )
 
 naive.markers <- c(
@@ -148,3 +149,5 @@ other.genes.DNA.binding <- c(
 # 33. https://en.wikipedia.org/wiki/IKZF2
 # 34. Molecular profiling of CD8 T cells in autochthonous melanoma identifies Maf as driver of exhaustion, EMBO 2015
 # 35. High Levels of Eomes Promote Exhaustion of Anti-tumor CD8+ T Cells, Trends in immunology
+# 36. NKG7 makes a better killer, Nature immunology, 2019
+# 37. The NK cell granule protein NKG7 regulates cytotoxic granule exocytosis and inflammation, Nature immunology, 2019
