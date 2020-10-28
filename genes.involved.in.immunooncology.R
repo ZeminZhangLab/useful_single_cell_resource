@@ -31,12 +31,17 @@ effector.markers <- c(
   'GZMB', # granzyme expression during the differentiation process of memory CD8+ T cells might be as follows: GrA+/GrB–/GrK+ ? GrA+/GrB+/GrK+ ? GrA+/GrB+/GrK– [12]
   'GZMK', # granzyme expression during the differentiation process of memory CD8+ T cells might be as follows: GrA+/GrB–/GrK+ ? GrA+/GrB+/GrK+ ? GrA+/GrB+/GrK– [12] ranked in early effector memory subset [3, 13]
   'GZMH',
-  'GNLY', # as name 'granulysin' suggests, exists within GZMs vesicles and causes lysis [38]. 
-  'PRF1',
+  'GNLY', # as name 'granulysin' suggests, exists within GZMs vesicles and causes lysis [38]. seems mostly to kill bacteria and low toxicity to mammalian cells [39]
+  'PRF1', # contained within vesicles [39] regulated by RUNX3 & EOMES [39] 
   'IFNG'
   "CX3CR1", # seem to be a good marker. associated with effector T cell subset although function not very clear[20] seems only used by zhanglab, not that good in [22]
   "KLRG1", # immune checkpoint with less obvious functions than PD1, etc. considered as a 'senescent marker' expressed in effector, etc [21]
   "NKG7", # transmembrane protein localized on vesicles containing cytotoxic molecules. relocalizing to plasma membrane following membrane fusion of vesicles with plasma membrane, when T/NK cells recognize target cells and form a immunological synapse. reduced LAMP1 on plasma membrane in NKG7 difficiency suggests a role in vesicle trafficing. [36, 37] expressed in a all but naive CD8 T cells. [1~3] so may not contribute to T cell exhuastion. claimed roles in CD4 T cells [36~37]
+  
+  "UNC13D", # claimed to regulate prf vesicle trafficking & fusion [39], expressed low & not very differentially between Teff & Tex [1~3]
+  "STXBP2", # claimed to regulate prf vesicle trafficking & fusion [39], expressed low & not very differentially between Teff & Tex [1~3]
+  "STX11", # claimed to regulate prf vesicle trafficking & fusion [39], expressed low & not very differentially between Teff & Tex [1~3]
+  "DOCK8", # claimed to regulate prf vesicle trafficking & fusion [39], expressed in almost all T cells [1~3]
 )
 
 naive.markers <- c(
@@ -108,6 +113,7 @@ t.cell.transcription.factors <- c(
   "NR4A2", # claimed to be expressed in Tex [34], validated but not that significantly or consistently across datasets [1~3]
   "MAF", # claimed to be expressed in Tex [34], validated but not that significantly or consistently across datasets [1~3]
   "EOMES", # validated [13] for the claim: as tumor progressed, Eomes expression was elevated in tumor-infiltrating CD8+ T cells, especially in PD-1+Tim-3+ exhausted CD8+ T cells. Complete loss of Eomes in T cells resulted in impaired development of anti-tumor CTLs, whereas deletion of one allele of Eomes in T cells decreased development of exhausted CD8+ T cells, which offered better tumor control. [35]
+  "RUNX3", # regulate PRF1 expression [40], expressed in Teff & Tex in [1~3]
 )
 
 other.genes.DNA.binding <- c(
@@ -152,3 +158,7 @@ other.genes.DNA.binding <- c(
 # 36. NKG7 makes a better killer, Nature immunology, 2019
 # 37. The NK cell granule protein NKG7 regulates cytotoxic granule exocytosis and inflammation, Nature immunology, 2019
 # 38. https://en.wikipedia.org/wiki/GNLY
+# 39. Perforin and granzymes- function, dysfunction and human pathology, Nature review immunology, 2015
+# 40. Runx3 and T-box proteins cooperate to establish the transcriptional program of effector CTLs. J. Exp. Med. 206, 51–59 (2009).
+
+
