@@ -31,7 +31,7 @@ effector.markers <- c(
   'GZMB', # granzyme expression during the differentiation process of memory CD8+ T cells might be as follows: GrA+/GrB–/GrK+ ? GrA+/GrB+/GrK+ ? GrA+/GrB+/GrK– [12]
   'GZMK', # granzyme expression during the differentiation process of memory CD8+ T cells might be as follows: GrA+/GrB–/GrK+ ? GrA+/GrB+/GrK+ ? GrA+/GrB+/GrK– [12] ranked in early effector memory subset [3, 13]
   'GZMH',
-  'GNLY',
+  'GNLY', # as name 'granulysin' suggests, exists within GZMs vesicles and causes lysis [38]. 
   'PRF1',
   'IFNG'
   "CX3CR1", # seem to be a good marker. associated with effector T cell subset although function not very clear[20] seems only used by zhanglab, not that good in [22]
@@ -151,3 +151,4 @@ other.genes.DNA.binding <- c(
 # 35. High Levels of Eomes Promote Exhaustion of Anti-tumor CD8+ T Cells, Trends in immunology
 # 36. NKG7 makes a better killer, Nature immunology, 2019
 # 37. The NK cell granule protein NKG7 regulates cytotoxic granule exocytosis and inflammation, Nature immunology, 2019
+# 38. https://en.wikipedia.org/wiki/GNLY
