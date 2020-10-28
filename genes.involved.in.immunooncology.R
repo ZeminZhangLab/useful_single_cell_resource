@@ -27,10 +27,11 @@ conventional.T.cell.markers <- c(
 )
 
 effector.markers <- c(
-  'GZMA', # granzyme expression during the differentiation process of memory CD8+ T cells might be as follows: GrA+/GrB–/GrK+ ? GrA+/GrB+/GrK+ ? GrA+/GrB+/GrK– [12]
-  'GZMB', # granzyme expression during the differentiation process of memory CD8+ T cells might be as follows: GrA+/GrB–/GrK+ ? GrA+/GrB+/GrK+ ? GrA+/GrB+/GrK– [12]
+  'GZMA', # granzyme A has minimal cytotoxicty [39]
+  'GZMB', # GZMB is the most powerful [39]
   'GZMK', # granzyme expression during the differentiation process of memory CD8+ T cells might be as follows: GrA+/GrB–/GrK+ ? GrA+/GrB+/GrK+ ? GrA+/GrB+/GrK– [12] ranked in early effector memory subset [3, 13]
-  'GZMH',
+  'GZMH', # GZMH & GZMK may expain the minimal cytotoxcitiy effect in abscence of both A&B [39]
+  "GZMM", # expressed less in Tex compared to Teff [1~3] reduced expression in Tex compared to Teff [1~3]
   'GNLY', # as name 'granulysin' suggests, exists within GZMs vesicles and causes lysis [38]. seems mostly to kill bacteria and low toxicity to mammalian cells [39]
   'PRF1', # contained within vesicles [39] regulated by RUNX3 & EOMES [39] 
   'IFNG'
