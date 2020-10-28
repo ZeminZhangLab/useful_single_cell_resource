@@ -42,6 +42,7 @@ effector.markers <- c(
   "STXBP2", # claimed to regulate prf vesicle trafficking & fusion [39], expressed low & not very differentially between Teff & Tex [1~3]
   "STX11", # claimed to regulate prf vesicle trafficking & fusion [39], expressed low & not very differentially between Teff & Tex [1~3]
   "DOCK8", # claimed to regulate prf vesicle trafficking & fusion [39], expressed in almost all T cells [1~3]
+  "LAMP1", # claimed to be redundant in cytotoxicity [39] mentioned to translocate to plasma membrane [36]
 )
 
 naive.markers <- c(
