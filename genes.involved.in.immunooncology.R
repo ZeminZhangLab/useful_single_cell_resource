@@ -118,6 +118,11 @@ t.cell.transcription.factors <- c(
   "RUNX3", # regulate PRF1 expression [40], expressed in Teff & Tex in [1~3]
 )
 
+costimulatory.receptors <- c(
+  "CD28", # TARGET # amplify TCR signaling, induce proliferation & IL2 production [41] expressed in GZMK T cells, T naive but not Teff, Tex [1~3] CTLA4 is upregulated following T cell activation, with CD28 subsequently downregulated. [41, 42] the question is, will Tex work without CD28? CD28 is dephosphorelayed by SHP2 recruited by PDL1-PD1 activation, suggests CD28 is the primary target of PD1 activation. [43] failed in clinical trial, perhaps due to super efficiency [44]
+  "",
+)
+
 other.genes.DNA.binding <- c(
 )
 
@@ -162,5 +167,12 @@ other.genes.DNA.binding <- c(
 # 38. https://en.wikipedia.org/wiki/GNLY
 # 39. Perforin and granzymes- function, dysfunction and human pathology, Nature review immunology, 2015
 # 40. Runx3 and T-box proteins cooperate to establish the transcriptional program of effector CTLs. J. Exp. Med. 206, 51–59 (2009).
+# 41. Mol. Cell. Biol. 7, 4472–4481 (1987). This paper identified CD28 as a co‐stimulator that could amplify TCR signalling to induce proliferation and IL‐2 production
+# 42. CD28 and CTLA-4 coreceptor expression and signal transduction. Immunol. Rev. 229, 12–26 (2009).
+# 43. T cell costimulatory receptor CD28 is a primary target for PD-1–mediated inhibition, Science 2017
+# 44. The storm has cleared- lessons from the CD28 superagonist TGN1412 trial, Nature reviews immunology, 2012
+
+
+
 
 
