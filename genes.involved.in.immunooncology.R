@@ -119,8 +119,12 @@ t.cell.transcription.factors <- c(
 )
 
 costimulatory.receptors <- c(
-  "CD28", # TARGET # amplify TCR signaling, induce proliferation & IL2 production [41] expressed in GZMK T cells, T naive but not Teff, Tex [1~3] CTLA4 is upregulated following T cell activation, with CD28 subsequently downregulated. [41, 42] the question is, will Tex work without CD28? CD28 is dephosphorelayed by SHP2 recruited by PDL1-PD1 activation, suggests CD28 is the primary target of PD1 activation. [43] failed in clinical trial, perhaps due to super efficiency [44]
+  "CD28", # TARGET # amplify TCR signaling, induce proliferation & IL2 production [41] expressed in GZMK T cells, T naive but not Teff, Tex [1~3] CTLA4 is upregulated following T cell activation, with CD28 subsequently downregulated. [41, 42] the question is, will Tex work without CD28? CD28 is dephosphorelayed by SHP2 recruited by PDL1-PD1 activation, suggests CD28 is the primary target of PD1 activation. [43] failed in clinical trial, perhaps due to super efficiency [44] MHCII binding may distinguish it from other targets [45]
   "",
+)
+
+coinhibitory.receptors <-c(
+  "LAG3", # TARGET # starts from Teff, climaxed at Tex [1~3], interacts with MHC-II [41]
 )
 
 other.genes.DNA.binding <- c(
@@ -171,7 +175,7 @@ other.genes.DNA.binding <- c(
 # 42. CD28 and CTLA-4 coreceptor expression and signal transduction. Immunol. Rev. 229, 12–26 (2009).
 # 43. T cell costimulatory receptor CD28 is a primary target for PD-1–mediated inhibition, Science 2017
 # 44. The storm has cleared- lessons from the CD28 superagonist TGN1412 trial, Nature reviews immunology, 2012
-
+# 45. https://blog.crownbio.com/lag3-a-promising-new-cancer-immunotherapy-target
 
 
 
