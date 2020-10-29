@@ -116,6 +116,7 @@ t.cell.transcription.factors <- c(
   "MAF", # claimed to be expressed in Tex [34], validated but not that significantly or consistently across datasets [1~3]
   "EOMES", # validated [13] for the claim: as tumor progressed, Eomes expression was elevated in tumor-infiltrating CD8+ T cells, especially in PD-1+Tim-3+ exhausted CD8+ T cells. Complete loss of Eomes in T cells resulted in impaired development of anti-tumor CTLs, whereas deletion of one allele of Eomes in T cells decreased development of exhausted CD8+ T cells, which offered better tumor control. [35]
   "RUNX3", # regulate PRF1 expression [40], expressed in Teff & Tex in [1~3]
+  "BATF", # claimed to be upregulated by PD1 activdation [46] seem to express in all T cells but significantly higher in Treg. [46]
 )
 
 costimulatory.receptors <- c(
@@ -176,7 +177,7 @@ other.genes.DNA.binding <- c(
 # 43. T cell costimulatory receptor CD28 is a primary target for PD-1–mediated inhibition, Science 2017
 # 44. The storm has cleared- lessons from the CD28 superagonist TGN1412 trial, Nature reviews immunology, 2012
 # 45. https://blog.crownbio.com/lag3-a-promising-new-cancer-immunotherapy-target
-
+# 46. Transcriptional analysis of HIV-specific CD8+ T cells shows that PD-1 inhibits T cell function by upregulating BATF, Nature medicine 2010
 
 
 
