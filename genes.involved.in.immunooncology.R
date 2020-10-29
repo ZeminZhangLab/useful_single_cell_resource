@@ -36,7 +36,6 @@ effector.markers <- c(
   'PRF1', # contained within vesicles [39] regulated by RUNX3 & EOMES [39] 
   'IFNG'
   "CX3CR1", # seem to be a good marker. associated with effector T cell subset although function not very clear[20] seems only used by zhanglab, not that good in [22]
-  "KLRG1", # immune checkpoint with less obvious functions than PD1, etc. considered as a 'senescent marker' expressed in effector, etc [21]
   "NKG7", # transmembrane protein localized on vesicles containing cytotoxic molecules. relocalizing to plasma membrane following membrane fusion of vesicles with plasma membrane, when T/NK cells recognize target cells and form a immunological synapse. reduced LAMP1 on plasma membrane in NKG7 difficiency suggests a role in vesicle trafficing. [36, 37] expressed in a all but naive CD8 T cells. [1~3] so may not contribute to T cell exhuastion. claimed roles in CD4 T cells [36~37]
   
   "UNC13D", # claimed to regulate prf vesicle trafficking & fusion [39], expressed low & not very differentially between Teff & Tex [1~3]
@@ -126,9 +125,22 @@ costimulatory.receptors <- c(
 
 coinhibitory.receptors <-c(
   "LAG3", # TARGET # starts from Teff, climaxed at Tex [1~3], interacts with MHC-II [41]
-  "CTLA4", # sequestering target receptors or ligands[47]
-  "PDCD1", # recruiting SHP2 to attenuate TCR signaling [48] rapidly upregulated following T cell activation []
-  "TIM3", # involved in synapse formation, recruited by PD1 [49]
+  "CTLA4", # TARGET # sequestering target receptors or ligands[47]
+  "PDCD1", # TARGET # recruiting SHP2 to attenuate TCR signaling [48] rapidly upregulated following T cell activation []
+  "TIM3", # TARGET # involved in synapse formation, recruited by PD1 [49]
+  "KLRG1", # expressed less in Tex compared to Teff [1~3] immune checkpoint with less obvious functions than PD1, etc. considered as a 'senescent marker' expressed in effector, etc [21]
+)
+
+interleukins <- c(
+  
+  "IL2", # TODO, express in Treg,
+ 
+  
+  "IL10" # inhibitory cytokine. promotes T cell exhaustion [52] # not expressed by any TIl [1~3] produced by monocytes [54~55], validated by [53] in specific macrophage subsets. coblockade with PD1 tested [56]
+  "IL10RA", # receptor # seem to express low but in all TIL [1~3] 
+  "IL10RB", # receptor # seem to express low but in all TIL [1~3] IL10RB expression seems to be subsets of IL10RA [1, 53], why?
+  "IL15", # TODO, genentech target
+  
 )
 
 other.genes.DNA.binding <- c(
@@ -186,8 +198,9 @@ other.genes.DNA.binding <- c(
 # 49. T cell Ig and mucin domain- containing protein 3 is recruited to the immune synapse, disrupts stable synapse formation, and associates with receptor phosphatases. J. Immunol. 192, 782–791 (2014).
 # 50. Molecular and cellular insights into T cell exhaustion, Nature reviews immunology 2015
 # 51. Clinical blockade of PD1 and LAG3 — potential mechanisms of action, Nature reviews immunology, 2014
-
-
-
-
+# 52. Ejrnaes, M. et al. Resolution of a chronic viral infection after interleukin-10 receptor blockade. J. Exp. Med. 203, 2461–2472 (2006).
+# 53. Landscape and Dynamics of Single Immune Cells in Hepatocellular Carcinoma, Cell, 2019
+# 54. Infected CD8α– dendritic cells are the predominant source of IL-10 during establishment of persistent viral infection. Proc. Natl Acad. Sci. USA 109, 14116–14121 (2012).
+# 55. Programmed death-1-induced interleukin-10 production by monocytes impairs CD4+ T cell activation during HIV infection. Nat. Med. 16, 452–459 (2010).
+# 56. IL-10 and PD-L1 operate through distinct pathways to suppress T-cell activity during persistent viral infection, PNAS, 2008
 
