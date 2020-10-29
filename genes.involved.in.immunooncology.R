@@ -133,7 +133,7 @@ coinhibitory.receptors <-c(
 
 interleukins <- c(
   
-  "IL2", # TODO, express in Treg,
+  "IL2", # TODO, express in Treg, # tested in combination with PDL1 blockade and worked (but IL2RA expressed in Treg, IL15 chosen by genentech as 'better-in-class')[57] 
  
   
   "IL10" # inhibitory cytokine. promotes T cell exhaustion [52] # not expressed by any TIl [1~3] produced by monocytes [54~55], validated by [53] in specific macrophage subsets. coblockade with PD1 tested [56]
@@ -203,4 +203,4 @@ other.genes.DNA.binding <- c(
 # 54. Infected CD8α– dendritic cells are the predominant source of IL-10 during establishment of persistent viral infection. Proc. Natl Acad. Sci. USA 109, 14116–14121 (2012).
 # 55. Programmed death-1-induced interleukin-10 production by monocytes impairs CD4+ T cell activation during HIV infection. Nat. Med. 16, 452–459 (2010).
 # 56. IL-10 and PD-L1 operate through distinct pathways to suppress T-cell activity during persistent viral infection, PNAS, 2008
-
+# 57. PD-L1 blockade synergizes with IL-2 therapy in reinvigorating exhausted T cells. J. Clin. Invest. 123, 2604–2615 (2013).
