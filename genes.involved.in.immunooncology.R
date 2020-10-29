@@ -120,12 +120,15 @@ t.cell.transcription.factors <- c(
 )
 
 costimulatory.receptors <- c(
-  "CD28", # TARGET # amplify TCR signaling, induce proliferation & IL2 production [41] expressed in GZMK T cells, T naive but not Teff, Tex [1~3] CTLA4 is upregulated following T cell activation, with CD28 subsequently downregulated. [41, 42] the question is, will Tex work without CD28? CD28 is dephosphorelayed by SHP2 recruited by PDL1-PD1 activation, suggests CD28 is the primary target of PD1 activation. [43] failed in clinical trial, perhaps due to super efficiency [44] MHCII binding may distinguish it from other targets [45]
+  "CD28", # TARGET # amplify TCR signaling, induce proliferation & IL2 production [41] expressed in GZMK T cells, T naive but not Teff, Tex [1~3] CTLA4 is upregulated following T cell activation, with CD28 subsequently downregulated. [41, 42] the question is, will Tex work without CD28? CD28 is dephosphorelayed by SHP2 recruited by PDL1-PD1 activation, suggests CD28 is the primary target of PD1 activation. [43] failed in clinical trial, perhaps due to super efficiency [44] MHCII binding may distinguish it from other targets [45, 51]
   "",
 )
 
 coinhibitory.receptors <-c(
   "LAG3", # TARGET # starts from Teff, climaxed at Tex [1~3], interacts with MHC-II [41]
+  "CTLA4", # sequestering target receptors or ligands[47]
+  "PDCD1", # recruiting SHP2 to attenuate TCR signaling [48] rapidly upregulated following T cell activation []
+  "TIM3", # involved in synapse formation, recruited by PD1 [49]
 )
 
 other.genes.DNA.binding <- c(
@@ -178,6 +181,13 @@ other.genes.DNA.binding <- c(
 # 44. The storm has cleared- lessons from the CD28 superagonist TGN1412 trial, Nature reviews immunology, 2012
 # 45. https://blog.crownbio.com/lag3-a-promising-new-cancer-immunotherapy-target
 # 46. Transcriptional analysis of HIV-specific CD8+ T cells shows that PD-1 inhibits T cell function by upregulating BATF, Nature medicine 2010
+# 47. B7-1 and B7-2 selectively recruit CTLA-4 and CD28 to the immunological synapse. Immunity 21, 401–413 (2004).
+# 48. Programmed cell death 1 forms negative costimulatory microclusters that directly inhibit T cell receptor signaling by recruiting phosphatase SHP2. J. Exp. Med. 209, 1201–1217 (2012).
+# 49. T cell Ig and mucin domain- containing protein 3 is recruited to the immune synapse, disrupts stable synapse formation, and associates with receptor phosphatases. J. Immunol. 192, 782–791 (2014).
+# 50. Molecular and cellular insights into T cell exhaustion, Nature reviews immunology 2015
+# 51. Clinical blockade of PD1 and LAG3 — potential mechanisms of action, Nature reviews immunology, 2014
+
+
 
 
 
