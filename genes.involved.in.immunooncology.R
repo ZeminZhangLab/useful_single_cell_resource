@@ -27,22 +27,34 @@ conventional.T.cell.markers <- c(
 )
 
 effector.markers <- c(
+  
   'GZMA', # granzyme A has minimal cytotoxicty [39]
   'GZMB', # GZMB is the most powerful [39]
   'GZMK', # granzyme expression during the differentiation process of memory CD8+ T cells might be as follows: GrA+/GrB–/GrK+ ? GrA+/GrB+/GrK+ ? GrA+/GrB+/GrK– [12] ranked in early effector memory subset [3, 13]
   'GZMH', # GZMH & GZMK may expain the minimal cytotoxcitiy effect in abscence of both A&B [39]
   "GZMM", # expressed less in Tex compared to Teff [1~3] reduced expression in Tex compared to Teff [1~3]
-  'GNLY', # as name 'granulysin' suggests, exists within GZMs vesicles and causes lysis [38]. seems mostly to kill bacteria and low toxicity to mammalian cells [39]
-  'PRF1', # contained within vesicles [39] regulated by RUNX3 & EOMES [39] 
-  'IFNG'
-  "CX3CR1", # seem to be a good marker. associated with effector T cell subset although function not very clear[20] seems only used by zhanglab, not that good in [22]
-  "NKG7", # transmembrane protein localized on vesicles containing cytotoxic molecules. relocalizing to plasma membrane following membrane fusion of vesicles with plasma membrane, when T/NK cells recognize target cells and form a immunological synapse. reduced LAMP1 on plasma membrane in NKG7 difficiency suggests a role in vesicle trafficing. [36, 37] expressed in a all but naive CD8 T cells. [1~3] so may not contribute to T cell exhuastion. claimed roles in CD4 T cells [36~37]
   
+  'GNLY', # as name 'granulysin' suggests, exists within GZMs vesicles and causes lysis [38]. seems mostly to kill bacteria and low toxicity to mammalian cells [39]
+  
+  'PRF1', # contained within vesicles [39] regulated by RUNX3 & EOMES [39] 
   "UNC13D", # claimed to regulate prf vesicle trafficking & fusion [39], expressed low & not very differentially between Teff & Tex [1~3]
   "STXBP2", # claimed to regulate prf vesicle trafficking & fusion [39], expressed low & not very differentially between Teff & Tex [1~3]
   "STX11", # claimed to regulate prf vesicle trafficking & fusion [39], expressed low & not very differentially between Teff & Tex [1~3]
   "DOCK8", # claimed to regulate prf vesicle trafficking & fusion [39], expressed in almost all T cells [1~3]
   "LAMP1", # claimed to be redundant in cytotoxicity [39] mentioned to translocate to plasma membrane [36]
+  
+  'IFNG', 
+  
+  "CX3CR1", # seem to be a good marker. associated with effector T cell subset although function not very clear[20] seems only used by zhanglab, not that good in [22]
+  
+  "NKG7", # transmembrane protein localized on vesicles containing cytotoxic molecules. relocalizing to plasma membrane following membrane fusion of vesicles with plasma membrane, when T/NK cells recognize target cells and form a immunological synapse. reduced LAMP1 on plasma membrane in NKG7 difficiency suggests a role in vesicle trafficing. [36, 37] expressed in a all but naive CD8 T cells. [1~3] so may not contribute to T cell exhuastion. claimed roles in CD4 T cells [36~37]
+  
+  "FCGR3A", # also known as CD16, originally functions to bind the Fc fragment of antibody to enable clearance [59] expressed exclusively in Teff, might be interesting [1~3]
+  "FCGR3B", # almost the same as FCGR3A but significantly less amount [1~3]
+  
+  "FGFBP2", # The encoded protein is a serum protein that is selectively secreted by cytotoxic lymphocytes and may be involved in cytotoxic lymphocyte-mediated immunity. [60] exclusively expressed by Teff [1~3]
+  
+  
 )
 
 naive.markers <- c(
@@ -131,6 +143,10 @@ coinhibitory.receptors <-c(
   "KLRG1", # expressed less in Tex compared to Teff [1~3] immune checkpoint with less obvious functions than PD1, etc. considered as a 'senescent marker' expressed in effector, etc [21]
 )
 
+costimulatory.receptors <-c(
+  "TNFRSF9", # also known as 4-1BB,  very interesting to express only in terminal Tex & Treg, why would 'stimulatory' be on Tex? [1~3]
+)
+
 interleukins <- c(
   
   "IL2", # TODO, express in Treg, # tested in combination with PDL1 blockade and worked (but IL2RA expressed in Treg, IL15 chosen by genentech as 'better-in-class')[57] 
@@ -141,6 +157,11 @@ interleukins <- c(
   "IL10RB", # receptor # seem to express low but in all TIL [1~3] IL10RB expression seems to be subsets of IL10RA [1, 53], why?
   "IL15", # TODO, genentech target
   
+)
+
+cytokines <- c(
+  
+  "CXCL13", # receptor is CXCR5, CXCL13 is a attractant for B & Tfh to promote TLS formation. CD8 T cell acquire increased expression of CXCL13 along the dysfunctional lineage. Thus Tex should not be considered as inert but with designed functions [5] Expressed in Tex [1~3] together with ITGAE [58]. 
 )
 
 other.genes.DNA.binding <- c(
@@ -204,3 +225,7 @@ other.genes.DNA.binding <- c(
 # 55. Programmed death-1-induced interleukin-10 production by monocytes impairs CD4+ T cell activation during HIV infection. Nat. Med. 16, 452–459 (2010).
 # 56. IL-10 and PD-L1 operate through distinct pathways to suppress T-cell activity during persistent viral infection, PNAS, 2008
 # 57. PD-L1 blockade synergizes with IL-2 therapy in reinvigorating exhausted T cells. J. Clin. Invest. 123, 2604–2615 (2013).
+# 58. A Transcriptionally Distinct CXCL13þCD103þCD8þ T-cell Population Is Associated with B-cell Recruitment and Neoantigen Load in Human Cancer, cancer immunology research 2019
+# 59. https://www.genecards.org/cgi-bin/carddisp.pl?gene=FCGR3A
+# 60. https://www.genecards.org/cgi-bin/carddisp.pl?gene=FGFBP2
+
