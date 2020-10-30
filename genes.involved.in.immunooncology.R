@@ -64,8 +64,7 @@ naive.markers <- c(
   "TCF7",
   
   "MAL", # correlates surprisingly well (tSNE gene expression) with CCR7 [1~3], functions in immunology not completely understood but well summarized[7]. worth further looking at if have time. Biomarker in treatment response a story? 
-  "IL7R", # in pan-T ranked as a marker. However, expressed in almost all cd8&4 except exhausted [1~3]. involved in VDJ recombination [4]. suggested in Melanoma & BCC, could be skin-cancer enriched? [5] but not validated in [6]. Don't suggest to use when assigning clusters. Could use in retrospection. In fact, almost useless in defining Naive.
-  ""
+  "IL7R", # see other IL7R
 )
 
 memory.markers <- c(
@@ -148,13 +147,20 @@ costimulatory.receptors <-c(
 
 interleukins <- c(
   
-  "IL2", # TODO, express in Treg, # tested in combination with PDL1 blockade and worked (but IL2RA expressed in Treg, IL15 chosen by genentech as 'better-in-class')[57] 
- 
+  "IL2RG", # The common gamma chain (γc) (or CD132), also known as interleukin-2 receptor subunit gamma or IL-2RG, is a cytokine receptor sub-unit that is common to the receptor complexes for at least six different interleukin receptors: IL-2, IL-4, IL-7, IL-9, IL-15 and interleukin-21 receptor. [61] expressed on all TILs [1]
+  
+  "IL2", # TODO, express in Treg, responsible for t cell maintainence [62] # tested in combination with PDL1 blockade and worked (but IL2RA expressed in Treg, IL15 chosen by genentech as 'better-in-class')[57] 
+  
+  ""
+  "IL7R", # in pan-T ranked as a marker. However, expressed in almost all cd8&4 except exhausted [1~3]. involved in VDJ recombination [4]. suggested in Melanoma & BCC, could be skin-cancer enriched? [5] but not validated in [6]. Don't suggest to use when assigning clusters. Could use in retrospection. In fact, almost useless in defining Naive.
+  
   
   "IL10" # inhibitory cytokine. promotes T cell exhaustion [52] # not expressed by any TIl [1~3] produced by monocytes [54~55], validated by [53] in specific macrophage subsets. coblockade with PD1 tested [56]
   "IL10RA", # receptor # seem to express low but in all TIL [1~3] 
   "IL10RB", # receptor # seem to express low but in all TIL [1~3] IL10RB expression seems to be subsets of IL10RA [1, 53], why?
-  "IL15", # TODO, genentech target
+  
+  "IL15", # genentech target # the expression of IL15 doesn't seem robust [53]
+  "IL15RA", # expression low [1~3]
   
 )
 
@@ -227,4 +233,9 @@ other.genes.DNA.binding <- c(
 # 58. A Transcriptionally Distinct CXCL13þCD103þCD8þ T-cell Population Is Associated with B-cell Recruitment and Neoantigen Load in Human Cancer, cancer immunology research 2019
 # 59. https://www.genecards.org/cgi-bin/carddisp.pl?gene=FCGR3A
 # 60. https://www.genecards.org/cgi-bin/carddisp.pl?gene=FGFBP2
+# 61. http://en.wikipedia.org/wiki/Common_gamma_chain
+# 62. CYTOKINE CONTROL OF MEMORY T-CELL DEVELOPMENT AND SURVIVAL, Nature reviews immunology, 2003
+
+
+
 
