@@ -131,12 +131,11 @@ t.cell.transcription.factors <- c(
 )
 
 costimulatory.receptors <- c(
-  "CD28", # TARGET # amplify TCR signaling, induce proliferation & IL2 production [41] expressed in GZMK T cells, T naive but not Teff, Tex [1~3] CTLA4 is upregulated following T cell activation, with CD28 subsequently downregulated. [41, 42] the question is, will Tex work without CD28? CD28 is dephosphorelayed by SHP2 recruited by PDL1-PD1 activation, suggests CD28 is the primary target of PD1 activation. [43] failed in clinical trial, perhaps due to super efficiency [44] MHCII binding may distinguish it from other targets [45, 51]
-  "",
+  "CD28", # TARGET # amplify TCR signaling, induce proliferation & IL2 production [41] expressed in GZMK T cells, T naive but not Teff, Tex [1~3] CTLA4 is upregulated following T cell activation, with CD28 subsequently downregulated. [41, 42] the question is, will Tex work without CD28? CD28 is dephosphorelayed by SHP2 recruited by PDL1-PD1 activation, suggests CD28 is the primary target of PD1 activation. [43] failed in clinical trial, perhaps due to super efficiency [44]
 )
 
 coinhibitory.receptors <-c(
-  "LAG3", # TARGET # starts from Teff, climaxed at Tex [1~3], interacts with MHC-II [41]
+  "LAG3", # TARGET # starts from Teff, climaxed at Tex [1~3], interacts with MHC-II [41]  MHCII binding may distinguish it from other targets [45, 51]
   "CTLA4", # TARGET # sequestering target receptors or ligands[47]
   "PDCD1", # TARGET # recruiting SHP2 to attenuate TCR signaling [48] rapidly upregulated following T cell activation []
   "TIM3", # TARGET # involved in synapse formation, recruited by PD1 [49]
