@@ -162,6 +162,16 @@ interleukins <- c(
   "IL15", # genentech target # the expression of IL15 doesn't seem robust [53]
   "IL15RA", # expression low [1~3]
   
+  "IL17A", # the '17' that defines Th17 [65] expressed exclusively by Th17 [3], 
+  "IL17F", # very similar to IL17A, expressed by Th17 [65]
+  "IL17B", # no expression in any TIl [3]
+  "IL17C", # no expression in any TIl [3]
+  "IL17D", # no expression in any TIl [3]
+  "IL17RA", # seem to express in all TIL in a very sparse fashion [3]
+  
+  "IL23A", # driving factors of Th17 development, source not very clear [65]
+  "IL23R", # almost exclusively on Th17 [3]
+  
 )
 
 chemokines <- c(
@@ -249,5 +259,6 @@ other.genes.DNA.binding <- c(
 # 62. CYTOKINE CONTROL OF MEMORY T-CELL DEVELOPMENT AND SURVIVAL, Nature reviews immunology, 2003
 # 63. The integration of T cell migration, differentiation and function, Nature reviews immunology, 2013
 # 64. https://www.genecards.org/cgi-bin/carddisp.pl?gene=ANXA1
+# 65. IL-17 and Th17 Cells, annual reviews immunology, 2009
 
 
