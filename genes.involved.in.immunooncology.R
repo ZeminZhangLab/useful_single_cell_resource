@@ -164,9 +164,21 @@ interleukins <- c(
   
 )
 
-cytokines <- c(
+chemokines <- c(
+  
+  "CCR7", # well-establishes to Lymph-node homing [63]
+  "CCL19", # CCR7 ligands expressed by HEV epithelial [63], not expressed by T cells [3]
+  "CCL21", # CCR7 ligands expressed by HEV epithelial [63], not expressed by T cells [3]
   
   "CXCL13", # receptor is CXCR5, CXCL13 is a attractant for B & Tfh to promote TLS formation. CD8 T cell acquire increased expression of CXCL13 along the dysfunctional lineage. Thus Tex should not be considered as inert but with designed functions [5] Expressed in Tex [1~3] together with ITGAE [58]. 
+)
+
+homing.related <- c(
+
+  "S1PR1", # S1P (sphingosine 1-phosphate) expresses abundantly in blood & lymph. Binding of S1P transitently attenuates S1PR1 [63] enabling T cell migration to lymph node. express in CD8 & CD4 Teff & T naive [1~3] Personally consider it is a marker indicating 'should be in blood', corroborated by STARTRAC [3]
+
+  "ANXA1", # encodes a membrane-localized protein that binds phospholipids. related to anti-inflammatory functions not well-defined functions [64], doesn't seem like a good marker, express in almost all cell [1~3] though claimed as marker of Blood-Tcm in [3]
+  "ANXA2", # even worse than ANXA1.
 )
 
 other.genes.DNA.binding <- c(
@@ -235,7 +247,7 @@ other.genes.DNA.binding <- c(
 # 60. https://www.genecards.org/cgi-bin/carddisp.pl?gene=FGFBP2
 # 61. http://en.wikipedia.org/wiki/Common_gamma_chain
 # 62. CYTOKINE CONTROL OF MEMORY T-CELL DEVELOPMENT AND SURVIVAL, Nature reviews immunology, 2003
-
-
+# 63. The integration of T cell migration, differentiation and function, Nature reviews immunology, 2013
+# 64. https://www.genecards.org/cgi-bin/carddisp.pl?gene=ANXA1
 
 
