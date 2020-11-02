@@ -14,6 +14,8 @@ cd8.Tex <- "CD8+ T exhausted"
 cd4.Treg <- "CD4+ T regulatory"
 cd4.Tn <- "CD4+ T naive"
 cd4.Tex <- "CD4+ T exhausted"
+cd4.Th17 <- "CD4+ Th17" # use IL23R
+cd4.Tem <- "CD4+ T effector memory"
 
 #================================================================#
 # useful markers
