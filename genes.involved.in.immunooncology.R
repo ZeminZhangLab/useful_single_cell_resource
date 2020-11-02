@@ -145,7 +145,9 @@ coinhibitory.receptors <-c(
 )
 
 costimulatory.receptors <-c(
-  "TNFRSF9", # also known as 4-1BB,  very interesting to express only in terminal Tex & Treg, why would 'stimulatory' be on Tex? [1~3]
+  "TNFRSF4", # also known as OX-40, expresses in TNFRSF9+ Treg, but not CD8 Tex. express in CD4 Tex [2]
+  "TNFRSF9", # also known as 4-1BB,  very interesting to express only in terminal Tex & Treg, why would 'stimulatory' be on Tex? [1~3] express on antigen-experienced Treg [2]
+  ""
 )
 
 interleukins <- c(
