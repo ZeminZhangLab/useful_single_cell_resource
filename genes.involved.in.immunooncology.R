@@ -177,6 +177,8 @@ interleukins <- c(
   "IL23A", # driving factors of Th17 development, source not very clear [65]
   "IL23R", # almost exclusively on Th17 [3]
   
+  "IL33", # target, via IL33 antagonist[67] # recruits Treg to the TME
+  "IL1RL1" # target, IL1-receptor like 1, receptor for IL33. [66], expressed exclusively by Treg & Tfr [3] in a subset of Treg [2] but not in [1]
 )
 
 chemokines <- c(
@@ -265,5 +267,6 @@ other.genes.DNA.binding <- c(
 # 63. The integration of T cell migration, differentiation and function, Nature reviews immunology, 2013
 # 64. https://www.genecards.org/cgi-bin/carddisp.pl?gene=ANXA1
 # 65. IL-17 and Th17 Cells, annual reviews immunology, 2009
-
+# 66. Tumor-Infiltrating Regulatory T-cell Accumulation in the Tumor Microenvironment Is Mediated by IL33/ST2 Signaling, cancer immunology research 2020
+# 67. ST2 as checkpoint target for colorectal cancer immunotherapy
 
