@@ -177,7 +177,7 @@ interleukins <- c(
   "IL23A", # driving factors of Th17 development, source not very clear [65]
   "IL23R", # almost exclusively on Th17 [3]
   
-  "IL33", # target, via IL33 antagonist[67] # recruits Treg to the TME
+  "IL33", # target, via IL33 antagonist[67] # recruits Treg to the TME[66]. source seems to be endothelial but not cancer [68, 69] PD1 & CTLA4 treatment upregualtes ST2 in tumor & promotes CD103 CD8 Trm, this seems not solid. [69]
   "IL1RL1" # target, IL1-receptor like 1, receptor for IL33. [66], expressed exclusively by Treg & Tfr [3] in a subset of Treg [2] but not in [1]
 )
 
@@ -268,5 +268,8 @@ other.genes.DNA.binding <- c(
 # 64. https://www.genecards.org/cgi-bin/carddisp.pl?gene=ANXA1
 # 65. IL-17 and Th17 Cells, annual reviews immunology, 2009
 # 66. Tumor-Infiltrating Regulatory T-cell Accumulation in the Tumor Microenvironment Is Mediated by IL33/ST2 Signaling, cancer immunology research 2020
-# 67. ST2 as checkpoint target for colorectal cancer immunotherapy
+# 67. ST2 as checkpoint target for colorectal cancer immunotherapy, JCI insight, 2019
+# 68. Dissecting the multicellular ecosystem of metastatic melanoma by single-cell RNA-seq, Science, 2016
+# 69. Tumor-Derived IL33 Promotes Tissue-Resident CD8 + T Cells and Is Required for Checkpoint Blockade Tumor Immunotherapy,  cancer immunology research 2020
+
 
