@@ -150,6 +150,13 @@ costimulatory.receptors <-c(
   ""
 )
 
+inteferons <- c(
+
+  "IFNG", # links to JAK1/JAK2 signaling, IFNG upregulates typeI antigen presentation & increases PDL1 expression [72] direct anti-proliferative effect [need reference]
+  
+  
+)
+
 interleukins <- c(
   
   "IL2RG", # The common gamma chain (γc) (or CD132), also known as interleukin-2 receptor subunit gamma or IL-2RG, is a cytokine receptor sub-unit that is common to the receptor complexes for at least six different interleukin receptors: IL-2, IL-4, IL-7, IL-9, IL-15 and interleukin-21 receptor. [61] expressed on all TILs [1]
@@ -190,6 +197,8 @@ chemokines <- c(
   "CXCL13", # receptor is CXCR5, CXCL13 is a attractant for B & Tfh to promote TLS formation. CD8 T cell acquire increased expression of CXCL13 along the dysfunctional lineage. Thus Tex should not be considered as inert but with designed functions [5] Expressed in Tex [1~3] together with ITGAE [58]. 
 )
 
+
+
 homing.related <- c(
 
   "S1PR1", # S1P (sphingosine 1-phosphate) expresses abundantly in blood & lymph. Binding of S1P transitently attenuates S1PR1 [63] enabling T cell migration to lymph node. express in CD8 & CD4 Teff & T naive [1~3] Personally consider it is a marker indicating 'should be in blood', corroborated by STARTRAC [3]
@@ -199,6 +208,28 @@ homing.related <- c(
 )
 
 other.genes.DNA.binding <- c(
+)
+
+#================================================================#
+# genes incolved in mutation & resistance to immunotherapy
+#================================================================#
+
+genes.mutation.immunotherapy <- c(
+  
+  "IFNGR1", # see below JAK
+  
+  "JAK1", # loss of function or truncating mutation leads to insensitivity to INFG related pathways, i.e. INFG for antiproliferative functions in cancer cells. [70] think JAK is involved in both tumor & immune cells?
+  "JAK2", # as JAK1 [70]
+  
+  "B2M", # truncating mutation leads to loss of MHC-I [70] common component pf HLA isotypes. [] point mutation, deletions or loss of hyterozygosity observed in non-responders(LOH), LOH more 3-fold in non-responder (30% to 10%) than responder, loss of two copies only in non-responder [73]
+  
+  
+)
+
+histology.markers <- c(
+  
+  "S100", # tumor marker for melanoma, not necessarily for other cancer type [71]
+  
 )
 
 # references:
@@ -271,5 +302,8 @@ other.genes.DNA.binding <- c(
 # 67. ST2 as checkpoint target for colorectal cancer immunotherapy, JCI insight, 2019
 # 68. Dissecting the multicellular ecosystem of metastatic melanoma by single-cell RNA-seq, Science, 2016
 # 69. Tumor-Derived IL33 Promotes Tissue-Resident CD8 + T Cells and Is Required for Checkpoint Blockade Tumor Immunotherapy,  cancer immunology research 2020
-
+# 70. Mutations Associated with Acquired Resistance to PD-1 Blockade in Melanoma, NEJM, 2016
+# 71. S-100 protein: is it useful as a tumour marker in diagnostic immunocytochemistry?, 1980
+# 72. interferon-Gamma at the Crossroads of Tumor immune Surveillance or evasion, frontieres immunology, 2018
+# 73. Resistance to checkpoint blockade therapy through inactivation of antigen presentation, Nature communication, 2017
 
