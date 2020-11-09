@@ -251,3 +251,9 @@ proliferation.markers <- c(
   
 )
 
+uncategorized.basket <- c(
+
+  "INPP5F", # negatively regulates STAT3 signaling [79], express almost exclusively in Tex & Treg [3] very sparse in [76]
+  ""
+
+)
