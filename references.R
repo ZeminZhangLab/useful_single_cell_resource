@@ -78,3 +78,14 @@
 # 76. Single-cell profiling of breast cancer T cells reveals a tissue-resident memory subset associated with improved prognosis, Nature medicine, 2018
 # 77. https://www.genecards.org/cgi-bin/carddisp.pl?gene=CCL5
 # 78. https://www.sciencedirect.com/topics/neuroscience/ccl5
+# 79. https://www.genecards.org/cgi-bin/carddisp.pl?gene=INPP5F
+
+
+
+
+
+
+
+
+
+
