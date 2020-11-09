@@ -79,6 +79,8 @@
 # 77. https://www.genecards.org/cgi-bin/carddisp.pl?gene=CCL5
 # 78. https://www.sciencedirect.com/topics/neuroscience/ccl5
 # 79. https://www.genecards.org/cgi-bin/carddisp.pl?gene=INPP5F
+# 80. https://www.genecards.org/cgi-bin/carddisp.pl?gene=MYO1E
+# 81. https://www.genecards.org/cgi-bin/carddisp.pl?gene=MYO7A
 
 
 
