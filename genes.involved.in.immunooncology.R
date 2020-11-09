@@ -129,7 +129,7 @@ t.cell.transcription.factors <- c(
   "MAF", # claimed to be expressed in Tex [34], validated but not that significantly or consistently across datasets [1~3]
   "EOMES", # validated [13] for the claim: as tumor progressed, Eomes expression was elevated in tumor-infiltrating CD8+ T cells, especially in PD-1+Tim-3+ exhausted CD8+ T cells. Complete loss of Eomes in T cells resulted in impaired development of anti-tumor CTLs, whereas deletion of one allele of Eomes in T cells decreased development of exhausted CD8+ T cells, which offered better tumor control. [35]
   "RUNX3", # regulate PRF1 expression [40], expressed in Teff & Tex in [1~3]
-  "BATF", # claimed to be upregulated by PD1 activdation [46] seem to express in all T cells but significantly higher in Treg. [46]
+  "BATF", # claimed to be upregulated by PD1 activdation [46] seem to express in all T cells but significantly higher in Treg. [46] significantly more in Tex [6]
 )
 
 costimulatory.receptors <- c(
