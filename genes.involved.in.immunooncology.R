@@ -191,6 +191,10 @@ interleukins <- c(
 chemokines <- c(
   
   "CCR7", # well-establishes to Lymph-node homing [63]
+  
+  "CCL5", # as a chemo-attractant for blood monocytes, T helper cells, etc, [77] induced by IFN-γ, TNFα, or IL-1 in T cells [78]
+  "CCR5", # TODO
+  
   "CCL19", # CCR7 ligands expressed by HEV epithelial [63], not expressed by T cells [3]
   "CCL21", # CCR7 ligands expressed by HEV epithelial [63], not expressed by T cells [3]
   
@@ -229,6 +233,21 @@ genes.mutation.immunotherapy <- c(
 histology.markers <- c(
   
   "S100", # tumor marker for melanoma, not necessarily for other cancer type [71]
+  
+)
+
+proliferation.markers <- c(
+
+  "MKI67", # seem to express exclusively in CD8 Tex but not other clusters although its expression is sparse [3]
+  "STMN1", # used to indicate cell proliferation, but not solid [76], a little bit worse than MKI67 but seems still usable
+  "CCNA2", # used to indicate cell proliferation, but not solid [76], a little bit worse than MKI67 but seems still usable
+  
+  "HMGB2", # used to indicate cell proliferation, but not solid [76], claimed to be involved in VDJ recombination [74] but express on almost all cells [3]
+  "CKS1B", # used to indicate cell proliferation, but not solid [76], claimed to be associated with cyclin, express in different patterns across HeLa cell differentiation [75], expression very sparse & on all cell type, seem to be involved in cell cycle. [3]
+  "TUBA1B", # used to indicate cell proliferation, but not solid [76], express in all cells [3]
+  "TUBB", # used to indicate cell proliferation, but not solid [76],
+  "CCNA2", # used to indicate cell proliferation, but not solid [76],
+  "H2AFZ" # used to indicate cell proliferation, but not solid [76],
   
 )
 
@@ -306,4 +325,8 @@ histology.markers <- c(
 # 71. S-100 protein: is it useful as a tumour marker in diagnostic immunocytochemistry?, 1980
 # 72. interferon-Gamma at the Crossroads of Tumor immune Surveillance or evasion, frontieres immunology, 2018
 # 73. Resistance to checkpoint blockade therapy through inactivation of antigen presentation, Nature communication, 2017
-
+# 74. https://www.genecards.org/cgi-bin/carddisp.pl?gene=HMGB2
+# 75. https://www.genecards.org/cgi-bin/carddisp.pl?gene=CKS1B
+# 76. Single-cell profiling of breast cancer T cells reveals a tissue-resident memory subset associated with improved prognosis, Nature medicine, 2018
+# 77. https://www.genecards.org/cgi-bin/carddisp.pl?gene=CCL5
+# 78. https://www.sciencedirect.com/topics/neuroscience/ccl5
