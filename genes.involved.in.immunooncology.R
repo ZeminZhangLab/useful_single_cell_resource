@@ -91,7 +91,9 @@ exhaustion.markers <- c(
 
   "PDCD1",
   "TIGIT",
-  "LAYN"
+  "LAYN", 
+  "MYO1E", # expressed in Tex & Treg [3], identified in [13] myosin related [80] any ideas why it is here? sounds interesting.
+  "MYO7A", # expressed in Tex & Th1-like [3], identified in [13] myosin related [81] any ideas why it is here? sounds interesting.
   
 )
 
