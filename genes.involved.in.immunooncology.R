@@ -5,6 +5,15 @@
 # use standard naming system, store in variable
 #================================================================#
 
+# general tumor infiltrating cell types
+t.cell <- "T cell"
+b.cell <- "B cell"
+nk.cell <- "NK cell"
+dc <- "DC"
+tumor.cell <- "tumor cell"
+macrophage <- "macrophage"
+stromal.cell <- "stromal cell"
+
 # general tumor infiltraing T cell types
 cd8.Tn <- "CD8+ T naive"
 cd8.Teff <- "CD8+ T effector"
