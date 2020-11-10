@@ -5,10 +5,11 @@
 # use standard naming system, store in variable
 #================================================================#
 
+# other variables
+publication.cluster.name <- "publicationClusterName"
+
 # general tumor infiltrating cell types
-
 general.cell.type <- "generalCellType"
-
 t.cell <- "T cell"
 b.cell <- "B cell"
 nk.cell <- "NK cell"
@@ -20,11 +21,8 @@ stromal.cell <- "stromal cell"
 # cd4.cd8 celltype
 cd4.cd8.celltype <- "Cd4Cd8Celltype"
 
-
 # general tumor infiltraing T cell types
-
 t.cell.subtype <- "tCellSubtype"
-
 cd8.Tn <- "CD8+ T naive"
 cd8.Teff <- "CD8+ T effector"
 cd8.Tem <- "CD8+ T effector memory"
