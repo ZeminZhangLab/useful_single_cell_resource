@@ -6,6 +6,9 @@
 #================================================================#
 
 # general tumor infiltrating cell types
+
+general.cell.type <- "general.cell.type"
+
 t.cell <- "T cell"
 b.cell <- "B cell"
 nk.cell <- "NK cell"
@@ -14,7 +17,14 @@ tumor.cell <- "tumor cell"
 macrophage <- "macrophage"
 stromal.cell <- "stromal cell"
 
+# cd4.cd8 celltype
+cd4.cd8.celltype <- "cd4.cd8.celltype"
+
+
 # general tumor infiltraing T cell types
+
+t.cell.subtype <- "t.cell.subtype"
+
 cd8.Tn <- "CD8+ T naive"
 cd8.Teff <- "CD8+ T effector"
 cd8.Tem <- "CD8+ T effector memory"
