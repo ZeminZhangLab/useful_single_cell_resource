@@ -100,7 +100,7 @@ memory.markers <- c(
 resident.markers <-c(
 
   "CD69", # [18] The general idea is straightforward in that CD69 & ITGAE are related to cell-adhesion molecules. Binding parteners of CD69 & CD103 is expressed in tissue (epithelial, etc? check [18])
-  "ITGAE", # also CD103 [18]
+  "ITGAE", # also CD103 [18], seem to distinguish CD69 in that CD103 more in Tex & CD69 more in Trm (may need more look but clearly different)
   "ZNF683", # related to Trm [13, 19]
 )
 
@@ -134,7 +134,7 @@ t.cell.metabolism <- c(
   
   # dying cells release ATP and thus provides a pro-inflammatory signal, 
   
-  "ENTPD1", # CD39, ecto-nuclease, works in cascade with CD73 to convert ATP to adenosine, tumor cell can elevate CD39 expression [85], expressed in Tex & Treg [3] claimed to identify tumor specific from bystander T cell via texramer & cytof expression comparison, this need more validation[84]
+  "ENTPD1", # CD39, ecto-nuclease, works in cascade with CD73 to convert ATP to adenosine, tumor cell can elevate CD39 expression [85], expressed in Tex & Treg [3] claimed to identify tumor specific from bystander T cell via texramer & cytof expression comparison, this need more validation[84] identifies Tex, CD39 expression induced by IL6 & IL27 [86] coexpression with CD103 identifies tumor-reactive (this is a vague indication) T cell [87]
   "NT5E", # CD73, works in cascade with CD39 and converts AMP to ADO [85], does not express with CD39 may need more validation in different datasets [3]
   
 )
