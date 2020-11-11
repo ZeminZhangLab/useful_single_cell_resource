@@ -124,6 +124,21 @@ homing.related <- c(
   "GPR183", # ranked for Tcm [3] but not very distinguising. functions not very clear, seem to relate to T/B homing within lymph nodes (generally related to 'central') but well summarized [17]
 )
 
+cell.adhesion.molecules <- c(
+
+  "ITGA1", # cell adhesion molecule, known as CD49A, alpha unit of integrin [83], express in Trm & Tex [3], express more (same as CD69 & CD103) in tumor specific than bystander CD8 [84]
+
+)
+
+t.cell.metabolism <- c(
+  
+  # dying cells release ATP and thus provides a pro-inflammatory signal, 
+  
+  "ENTPD1", # CD39, ecto-nuclease, works in cascade with CD73 to convert ATP to adenosine, tumor cell can elevate CD39 expression [85], expressed in Tex & Treg [3] claimed to identify tumor specific from bystander T cell via texramer & cytof expression comparison, this need more validation[84]
+  "NT5E", # CD73, works in cascade with CD39 and converts AMP to ADO [85], does not express with CD39 may need more validation in different datasets [3]
+  
+)
+
 follicular.markers <- c(  # Distinguishing features of TFH cells are the expression of CXCR5, PD-1, SAP (SH2D1A), IL-21, and ICOS, among other molecules, and the absence of Blimp-1 ( prdm1). TFH cells are important for the for- mation of germinal centers [23]
   "CXCR5", # [23]
   "BCL6", # TFH cells de- pend on expression of the master regulator transcription factor Bcl6. [23]
