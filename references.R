@@ -82,7 +82,10 @@
 # 80. https://www.genecards.org/cgi-bin/carddisp.pl?gene=MYO1E
 # 81. https://www.genecards.org/cgi-bin/carddisp.pl?gene=MYO7A
 # 82. Distinct Cellular Mechanisms Underlie Anti-CTLA-4 and Anti-PD-1 Checkpoint Blockade, Cell, 2017
-# 83. 
+# 83. https://genecards.weizmann.ac.il/v3/cgi-bin/carddisp.pl?gene=ITGA1
+# 84. Bystander CD8+ T cells are abundant and phenotypically distinct in human tumour infiltrates, Nature 2018
+# 85. Targeting CD39 in cancer, Nature reviews immunology
+# 86. 
 
 
 
