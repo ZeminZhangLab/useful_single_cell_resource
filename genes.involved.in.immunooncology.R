@@ -39,6 +39,8 @@ cd4.others <- "CD4+ others"
 # useful markers
 #================================================================#
 
+ITGAE <- "ITGAE" # also CD103 [18], identifies Tex (also claimed to distinguish Tumor active with bystander) [87] seem to distinguish CD69 in that CD103 more in Tex & CD69 more in Trm (may need more look but clearly different)
+
 conventional.T.cell.markers <- c(
   'CD3D',
   'CD4',
@@ -100,7 +102,7 @@ memory.markers <- c(
 resident.markers <-c(
 
   "CD69", # [18] The general idea is straightforward in that CD69 & ITGAE are related to cell-adhesion molecules. Binding parteners of CD69 & CD103 is expressed in tissue (epithelial, etc? check [18])
-  "ITGAE", # also CD103 [18], seem to distinguish CD69 in that CD103 more in Tex & CD69 more in Trm (may need more look but clearly different)
+  ITGAE,
   "ZNF683", # related to Trm [13, 19]
 )
 
