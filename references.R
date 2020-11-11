@@ -85,7 +85,8 @@
 # 83. https://genecards.weizmann.ac.il/v3/cgi-bin/carddisp.pl?gene=ITGA1
 # 84. Bystander CD8+ T cells are abundant and phenotypically distinct in human tumour infiltrates, Nature 2018
 # 85. Targeting CD39 in cancer, Nature reviews immunology
-# 86. 
+# 86. CD39 Expression Defines Cell Exhaustion in Tumor-Infiltrating CD8 + T Cells, cancer research 2018
+# 87. Co-expression of CD39 and CD103 identifies tumor-reactive CD8 T cells in human solid tumors, Nature communication, 2018
 
 
 
