@@ -48,6 +48,12 @@ conventional.T.cell.markers <- c(
   'FOXP3'
 )
 
+NK.cell.markers <- c(
+  "NCAM1", # CD56, NK cell marker [88] validated to be expressed almost exclusively in NK [53] neuronal cell adhesion molecule (neuron connection) also detected on certain CD8 [89]
+  "KLRK1", # NKG2D, [94] activating receptor, NK cell marker, also expressed on activated CD8 T cell [90] and validated [3] ligands are induced self-proteins which are MHC-I homologues thus promiting tumor control[90] 
+  "KLRC1", # NKG2A, [94] inhibitory receptor, contains ITIM motif [91], expressed in both NK & T cell [92] recognizes MHCI through HLA-E ligation [93] expressed mostly in NK cell & some in T cell. [53]
+)
+
 effector.markers <- c(
   
   'GZMA', # granzyme A has minimal cytotoxicty [39]
