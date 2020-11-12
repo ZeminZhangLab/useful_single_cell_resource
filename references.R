@@ -87,10 +87,13 @@
 # 85. Targeting CD39 in cancer, Nature reviews immunology
 # 86. CD39 Expression Defines Cell Exhaustion in Tumor-Infiltrating CD8 + T Cells, cancer research 2018
 # 87. Co-expression of CD39 and CD103 identifies tumor-reactive CD8 T cells in human solid tumors, Nature communication, 2018
-
-
-
-
+# 88. https://www.cellsignal.com/contents/science-cst-pathways-immunology-inflammation/tumor-infiltrating-immune-cell-markers-(human)/pathways-ti-icm-human
+# 89. https://en.wikipedia.org/wiki/Neural_cell_adhesion_molecule
+# 90. https://en.wikipedia.org/wiki/NKG2D
+# 91. https://en.wikipedia.org/wiki/NKG2
+# 92. https://www.innate-pharma.com/en/pipeline/monalizumab-anti-nkg2a-mab-partnered-astrazeneca#:~:text=NKG2A%20is%20an%20inhibitory%20checkpoint%20receptor%20for%20HLA-E.,cells%20of%20many%20solid%20tumors%20and%20hematological%20malignancies.
+# 93. https://www.genecards.org/cgi-bin/carddisp.pl?gene=KLRC1&keywords=KLRC1
+# 94. The cancer–natural killer cell immunity cycle, Nature reviews cancer, 2020
 
 
 
