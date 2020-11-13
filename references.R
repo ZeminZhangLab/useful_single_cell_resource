@@ -94,8 +94,9 @@
 # 92. https://www.innate-pharma.com/en/pipeline/monalizumab-anti-nkg2a-mab-partnered-astrazeneca#:~:text=NKG2A%20is%20an%20inhibitory%20checkpoint%20receptor%20for%20HLA-E.,cells%20of%20many%20solid%20tumors%20and%20hematological%20malignancies.
 # 93. https://www.genecards.org/cgi-bin/carddisp.pl?gene=KLRC1&keywords=KLRC1
 # 94. The cancer–natural killer cell immunity cycle, Nature reviews cancer, 2020
-
-
+# 95. Inhibition of PCSK9 potentiates immune checkpoint therapy for cancer, Nature 2020
+# 96. The thioredoxin‐1 inhibitor Txnip restrains effector T‐cell and germinal center B‐cell expansion, european journal of immunology 2020
+# 97. 
 
 
 
