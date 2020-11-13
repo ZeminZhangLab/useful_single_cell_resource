@@ -96,7 +96,7 @@
 # 94. The cancer–natural killer cell immunity cycle, Nature reviews cancer, 2020
 # 95. Inhibition of PCSK9 potentiates immune checkpoint therapy for cancer, Nature 2020
 # 96. The thioredoxin‐1 inhibitor Txnip restrains effector T‐cell and germinal center B‐cell expansion, european journal of immunology 2020
-# 97. 
-
+# 97. https://en.wikipedia.org/wiki/CD19
+# 98. https://en.wikipedia.org/wiki/CD20
 
 
