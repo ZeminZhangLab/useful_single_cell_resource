@@ -98,5 +98,6 @@
 # 96. The thioredoxin‐1 inhibitor Txnip restrains effector T‐cell and germinal center B‐cell expansion, european journal of immunology 2020
 # 97. https://en.wikipedia.org/wiki/CD19
 # 98. https://en.wikipedia.org/wiki/CD20
+# 99. http://en.wikipedia.org/wiki/CD79A
 
 
