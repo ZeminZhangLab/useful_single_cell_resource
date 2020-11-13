@@ -299,3 +299,13 @@ uncategorized.basket <- c(
   ""
 
 )
+
+additional.immunotherapy.targets <- c(
+  
+  "PCSK9", # originally identified in lipid metabolism, claimed blockade of which antagonize MHC-I downregulation. inhibitor & antibody tested in mice. [95] 
+  
+)
+
+
+
+
