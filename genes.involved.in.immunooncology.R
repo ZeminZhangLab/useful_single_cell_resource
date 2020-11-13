@@ -54,6 +54,13 @@ NK.cell.markers <- c(
   "KLRC1", # NKG2A, [94] inhibitory receptor, contains ITIM motif [91], expressed in both NK & T cell [92] recognizes MHCI through HLA-E ligation [93] expressed mostly in NK cell & some in T cell. [53]
 )
 
+b.cell.markers <- c(
+
+  "CD19", # B cell co-receptor, express on pre-B, B & plasma B [97]
+  "MS4A1", # B cell membrane protein, express on B, function not known but suspected to act as a calcium channel [98] express on B but not plasma B [53]
+
+)
+
 effector.markers <- c(
   
   'GZMA', # granzyme A has minimal cytotoxicty [39]
