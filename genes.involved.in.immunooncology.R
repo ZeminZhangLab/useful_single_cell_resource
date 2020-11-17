@@ -222,6 +222,11 @@ interleukins <- c(
   "IL10RA", # receptor # seem to express low but in all TIL [1~3] 
   "IL10RB", # receptor # seem to express low but in all TIL [1~3] IL10RB expression seems to be subsets of IL10RA [1, 53], why?
   
+  "IL12A", # produced by DC, macro etc (failed to be validated in [53]) & activates both T & NK cell. [103, 104] clinical trial minimal effect & severe side effect [104] but overcome by engineering a local injection of IL12 [105]
+  "IL12B", # [103] IL12 family cytokines have two components, same expression as IL12A (failed to be validated in [53])
+  "IL12RB1", # receptor seem to express in many immune cell types with no obvious pattern (needs more observation) [53]
+  
+  
   "IL15", # genentech target # the expression of IL15 doesn't seem robust [53]
   "IL15RA", # expression low [1~3]
   
