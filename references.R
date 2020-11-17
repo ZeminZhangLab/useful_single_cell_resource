@@ -102,4 +102,14 @@
 # 100.  https://en.wikipedia.org/wiki/CXCR4
 # 101. Tertiary lymphoid structures improve immunotherapy and survival in melanoma, Nature, 2020
 # 102.  Mutations in BRCA1 and BRCA2 differentially affect the tumor microenvironment and response to checkpoint blockade immunotherapy, Nature cancer 2020
-# 
+# 103. https://en.wikipedia.org/wiki/Interleukin_12
+# 104. Interleukin 12: still a promising candidate for tumor immunotherapy? cancer immunology and immunotherapy , 2014
+# 104. Collagen-binding IL-12 enhances tumour inflammation and drives the complete remission of established immunologically cold mouse tumours, Nature biomedical engineering 2020
+
+
+
+
+
+
+
+
