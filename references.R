@@ -105,8 +105,9 @@
 # 103. https://en.wikipedia.org/wiki/Interleukin_12
 # 104. Interleukin 12: still a promising candidate for tumor immunotherapy? cancer immunology and immunotherapy , 2014
 # 104. Collagen-binding IL-12 enhances tumour inflammation and drives the complete remission of established immunologically cold mouse tumours, Nature biomedical engineering 2020
-
-
+# 105. The Kinase Activity of Hematopoietic Progenitor Kinase 1 Is Essential for the Regulation of T Cell Function, Cell report 2018
+# 106. Beigene 202007 investor conference R&D https://hkexir.beigene.com/media/1478/beigene_early_development_pipeline_and_research_deck-video-match20200709.pdf 
+# 107. 
 
 
 
