@@ -320,8 +320,10 @@ uncategorized.basket <- c(
 additional.immunotherapy.targets <- c(
   
   "PCSK9", # TARGET # originally identified in lipid metabolism, claimed blockade of which antagonize MHC-I downregulation. inhibitor & antibody tested in mice. [95] 
-  "BRCA1", # BRCA1 & BRCA2 are involved in homologous recombination [102]
-  "BRCA2", # truncating mutations in BRCA2 are associated with superior response compared to those in BRCA1 [102]
+  "BRCA1", # TARGET # BRCA1 & BRCA2 are involved in homologous recombination [102]
+  "BRCA2", # TARGET # truncating mutations in BRCA2 are associated with superior response compared to those in BRCA1 [102]
+  "MAP4K1", # TARGET # BeiGene's potential first-in-class inhibitor, PD1 combination [106] protein HPK1, downregulates TCR signaling [105]
+
 )
 
 
