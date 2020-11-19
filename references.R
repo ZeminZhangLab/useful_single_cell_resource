@@ -110,7 +110,7 @@
 # 107. The Transcription Factor Foxp3 Shapes Regulatory T Cell Identity by Tuning the Activity of trans-Acting Intermediaries, Immunity, 2020
 # 108. Production of the Cytokine VEGF-A by CD4+ T and Myeloid Cells Disrupts the Corneal Nerve Landscape and Promotes Herpes Stromal Keratitis , Immunity, 2020
 # 109. Checkpoint inhibitor immunotherapy in kidney cancer, Nature reviews urology 2020
-# 110.
+# 110. Central memory CD8+ T cells derive from stem-like Tcf7hi effector cells in the absence of cytotoxic differentiation, immunity 2020
 
 
 
