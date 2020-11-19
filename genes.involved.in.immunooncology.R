@@ -104,6 +104,15 @@ naive.markers <- c(
   "IL7R", # see other IL7R
 )
 
+
+treg.markers <- c(
+
+  "FOXP3", # regualates other TFs, i.e. down-regualtes TCF1 [107]
+  
+  
+)
+
+
 memory.markers <- c(
   
   # effector memory
@@ -260,6 +269,12 @@ chemokines <- c(
 
 )
 
+other.cytokines <- c(
+
+  "VEGFA", # can be expressed by Macrophage [53] & CD4 (claimed by [108] but not in [53]) # since renal tumor is also treated with VEGF inhibitor [109] this is worth look at
+  ""
+  
+)
 
 
 homing.related <- c(
