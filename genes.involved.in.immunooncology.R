@@ -159,8 +159,11 @@ myeloid.markers <- c(
 
 dc.markers <- c(
 
+  "CD40", # expressed in some DC & B cell [53], binds CD40L to activate CD4 T cell
+  "CD40LG", # expressed in most CD4 & some CD8 T cell [53]
+  
   "CD1C", # expressed in cDC2-CDC1 but not other myeloid cells [114] expressed in APC, related to MHC-I, involved in presenting lipid antigen to T cell exact function not known [115]
-  ""
+  "BATF3", # used in [114] as marker of cDC1 but also expressed in cDC2 & CD16 Mono. more info on BATF3 & DC available at [116]
   
 )
 
@@ -247,7 +250,7 @@ interleukins <- c(
   "IL10RA", # receptor # seem to express low but in all TIL [1~3] 
   "IL10RB", # receptor # seem to express low but in all TIL [1~3] IL10RB expression seems to be subsets of IL10RA [1, 53], why?
   
-  "IL12A", # produced by DC, macro etc (failed to be validated in [53]) & activates both T & NK cell. [103, 104] clinical trial minimal effect & severe side effect [104] but overcome by engineering a local injection of IL12 [105]
+  "IL12A", # produced by DC, macro etc (failed to be validated in [53, 114]) & activates both T & NK cell. [103, 104] clinical trial minimal effect & severe side effect [104] but overcome by engineering a local injection of IL12 [105]
   "IL12B", # [103] IL12 family cytokines have two components, same expression as IL12A (failed to be validated in [53])
   "IL12RB1", # receptor seem to express in many immune cell types with no obvious pattern (needs more observation) [53]
   
@@ -282,8 +285,16 @@ chemokines <- c(
   "CCL19", # CCR7 ligands expressed by HEV epithelial [63], not expressed by T cells [3]
   "CCL21", # CCR7 ligands expressed by HEV epithelial [63], not expressed by T cells [3]
   
+  "CXCL9", # expressed sparsely by certain TAM [53, 114] binds CXCR3 to recruit tumor-infiltrating T cell [117] 
+  "CXCL10", # expressed sparsely by certain TAM [53, 114] also binds CXCR3 to recruit tumor-infiltrating T cell [118]
+  "CXCL11", # expression not detected [53] also binds CXCR3 to recruit tumor-infiltrating T cell [119]
+  "CXCR3", # expressed by DC, B & T [53]
+  
+  
   "CXCL13", # receptor is CXCR5, CXCL13 is a attractant for B & Tfh to promote TLS formation. CD8 T cell acquire increased expression of CXCL13 along the dysfunctional lineage. Thus Tex should not be considered as inert but with designed functions [5] Expressed in Tex [1~3] together with ITGAE [58]. 
 
+  
+  
   "CXCR4", # ligand is SDF-1. general idea is CXCR4 binds to SDF-1 so that haematepoietic stem cell home to bone marrow, CXCR4 antibody mobilizes stem cell to the blood [100] indiacted to regulate B cell CD20 expression [100] indicated in fig 1d bulk rna that TLS express more [101] validated in [22] patient su001 
 
 )
