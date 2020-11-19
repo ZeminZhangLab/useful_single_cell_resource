@@ -165,6 +165,8 @@ dc.markers <- c(
   "CD1C", # expressed in cDC2-CDC1 but not other myeloid cells [114] expressed in APC, related to MHC-I, involved in presenting lipid antigen to T cell exact function not known [115]
   "BATF3", # used in [114] as marker of cDC1 but also expressed in cDC2 & CD16 Mono. more info on BATF3 & DC available at [116]
   
+  "CD103", # differentiates lymph node resident & migratory DCs [120]
+  "CD69", # differentiates lymph node resident & migratory DCs [120]
 )
 
 cell.adhesion.molecules <- c(
@@ -279,8 +281,8 @@ chemokines <- c(
   
   "CCR7", # well-establishes to Lymph-node homing [63]
   
-  "CCL5", # as a chemo-attractant for blood monocytes, T helper cells, etc, [77] induced by IFN-γ, TNFα, or IL-1 in T cells [78]
-  "CCR5", # TODO
+  "CCL5", # as a chemo-attractant for blood monocytes, T helper cells, etc, [77] induced by IFN-γ, TNFα, or IL-1 in T cells [78] expressed in T & NK [53] expressed by NK to recruit certain DC [123]
+  "CCR5", # TARGET # TREG depletion [124] expressed by certain DC subtype [53] claimed to be the target of NK-CCL5 [123]
   
   "CCL19", # CCR7 ligands expressed by HEV epithelial [63], not expressed by T cells [3]
   "CCL21", # CCR7 ligands expressed by HEV epithelial [63], not expressed by T cells [3]
@@ -297,12 +299,17 @@ chemokines <- c(
   
   "CXCR4", # ligand is SDF-1. general idea is CXCR4 binds to SDF-1 so that haematepoietic stem cell home to bone marrow, CXCR4 antibody mobilizes stem cell to the blood [100] indiacted to regulate B cell CD20 expression [100] indicated in fig 1d bulk rna that TLS express more [101] validated in [22] patient su001 
 
+  "XCL1", # secreted by NK, CD8 etc, binds to XCR1 to recruit DC [122, 53] expressed by NK to recruit DC [123]
+  "XCL2", # similar to XCL1 but not in mouse [122] 
+  "XCR1", # mainly expressed by DC [122]
+  
 )
 
 other.cytokines <- c(
 
   "VEGFA", # can be expressed by Macrophage [53] & CD4 (claimed by [108] but not in [53]) # since renal tumor is also treated with VEGF inhibitor [109] this is worth look at
-  ""
+  
+  "FLT3", # also CD135, expressed in many hematopoietic progenitor cells [121] expressed in some Macro & DC [53]
   
 )
 
