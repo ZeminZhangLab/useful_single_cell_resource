@@ -107,7 +107,10 @@
 # 104. Collagen-binding IL-12 enhances tumour inflammation and drives the complete remission of established immunologically cold mouse tumours, Nature biomedical engineering 2020
 # 105. The Kinase Activity of Hematopoietic Progenitor Kinase 1 Is Essential for the Regulation of T Cell Function, Cell report 2018
 # 106. Beigene 202007 investor conference R&D https://hkexir.beigene.com/media/1478/beigene_early_development_pipeline_and_research_deck-video-match20200709.pdf 
-# 107. 
+# 107. The Transcription Factor Foxp3 Shapes Regulatory T Cell Identity by Tuning the Activity of trans-Acting Intermediaries, Immunity, 2020
+# 108. Production of the Cytokine VEGF-A by CD4+ T and Myeloid Cells Disrupts the Corneal Nerve Landscape and Promotes Herpes Stromal Keratitis , Immunity, 2020
+# 109. Checkpoint inhibitor immunotherapy in kidney cancer, Nature reviews urology 2020
+# 110.
 
 
 
