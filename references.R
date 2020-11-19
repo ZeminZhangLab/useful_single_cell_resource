@@ -111,7 +111,11 @@
 # 108. Production of the Cytokine VEGF-A by CD4+ T and Myeloid Cells Disrupts the Corneal Nerve Landscape and Promotes Herpes Stromal Keratitis , Immunity, 2020
 # 109. Checkpoint inhibitor immunotherapy in kidney cancer, Nature reviews urology 2020
 # 110. Central memory CD8+ T cells derive from stem-like Tcf7hi effector cells in the absence of cytotoxic differentiation, immunity 2020
-
+# 111. https://www.genecards.org/cgi-bin/carddisp.pl?gene=CCR2
+# 112. https://en.wikipedia.org/wiki/Integrin_alpha_M
+# 113. https://en.wikipedia.org/wiki/Integrin_alpha_X
+# 114. Single-Cell Analyses Inform Mechanisms of MyeloidTargeted Therapies in Colon Cancer, Cell 2020
+# 115. https://en.wikipedia.org/wiki/CD1
 
 
 
