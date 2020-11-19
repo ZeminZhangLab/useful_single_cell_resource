@@ -150,10 +150,26 @@ homing.related <- c(
   "GPR183", # ranked for Tcm [3] but not very distinguising. functions not very clear, seem to relate to T/B homing within lymph nodes (generally related to 'central') but well summarized [17]
 )
 
+myeloid.markers <- c(
+  
+  "ITGAM", 
+  ""
+  
+)
+
+dc.markers <- c(
+
+  "CD1C", # expressed in cDC2-CDC1 but not other myeloid cells [114] expressed in APC, related to MHC-I, involved in presenting lipid antigen to T cell exact function not known [115]
+  ""
+  
+)
+
 cell.adhesion.molecules <- c(
 
   "ITGA1", # cell adhesion molecule, known as CD49A, alpha unit of integrin [83], express in Trm & Tex [3], express more (same as CD69 & CD103) in tumor specific than bystander CD8 [84]
-
+  "ITGAM", # also CD11B, expressed in macrophage, monocyte, granulocyte & NK [112], expressed in a subset of Myeloid & NK cells but not in T cell [53]
+  "ITGAX", # lso CD11c, expressed in macrophage, DC & NK [53] [113]
+  
 )
 
 t.cell.metabolism <- c(
@@ -254,6 +270,9 @@ interleukins <- c(
 )
 
 chemokines <- c(
+  
+  "CCL2", # not expressed by TIL or TIM [53]
+  "CCR2", # Key functional receptor for CCL2 but can also bind CCL7 and CCL12. Its binding with CCL2 on monocytes and macrophages mediates chemotaxis and migration [111] expressed in myeloid & some T & B cell [53]
   
   "CCR7", # well-establishes to Lymph-node homing [63]
   
