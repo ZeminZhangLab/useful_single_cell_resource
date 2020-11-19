@@ -178,7 +178,7 @@ t.cell.transcription.factors <- c(
   # most of these are summarized nicely in box2 [5]
   
   # below are 'established'
-  "TCF7", # expressed exclusively in 'progenitor exhausted' [24] this conclusion seem to be supported by many many studies and TCF7 subset associates with improved prognosis. [25~27]
+  "TCF7", # expressed exclusively in 'progenitor exhausted' [24] this conclusion seem to be supported by many many studies and TCF7 subset associates with improved prognosis. [25~27] TCF associated genes mentioned in [110]
   "TOX", # highly expressed in dysfuntional T cells in tumor and exhaustive T cells in chronic viral infection. high expression of TOX correlated with high expression of inhibitory receptors and low expression of TCF7[28] validated in [6]. also expressed in Treg & CD4 Tex [1, 6] plays in the elegant control of long-time T cell activation (exhaustion), have suggested functions in TCF1 cells [30] dispensable for Tem but essential for Tex [31]
   
   # below are less validated
