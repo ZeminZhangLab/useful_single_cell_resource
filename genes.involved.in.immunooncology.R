@@ -20,6 +20,8 @@ stromal.cell <- "stromal cell"
 
 # cd4.cd8 celltype
 cd4.cd8.celltype <- "Cd4Cd8Celltype"
+cd4 <- "CD4 T cell"
+cd8 <- "CD8 T cell"
 
 # general tumor infiltraing T cell types
 t.cell.subtype <- "tCellSubtype"
@@ -378,6 +380,12 @@ additional.immunotherapy.targets <- c(
 
 )
 
+stress.induced.genes <- c(
 
+  # heat shock proteins. whether to ignore this gene in choosing variable features is a debate. ref [5] mentions that some studies identify this as signature of Tex while some study ignored this gene.
+  # hsp are named according to molecular weight [126] initially discovered in heat shock but later discovered in a wide range of stress. Intrincially involved in MHC antigen presentation (HSPs associated with proteasomal processing of antigen [126])
+  "HSPA6", 
+  
+)
 
 
