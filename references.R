@@ -126,4 +126,4 @@
 # 123. NK Cells Stimulate Recruitment of cDC1 into the Tumor Microenvironment Promoting Cancer Immune Control, Cell 2018
 # 124. Disruption of CCR5‐dependent homing of regulatory T cells inhibits tumor growth in a murine model of pancreatic cancer. J Immunol. 2009
 # 125. A natural killer–dendritic cell axis defines checkpoint therapy–responsive tumor microenvironments, Nature medicine, 2018
-
+# 126. https://en.wikipedia.org/wiki/Heat_shock_protein#Function_in_antigen_presentation
