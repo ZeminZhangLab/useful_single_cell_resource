@@ -127,3 +127,10 @@
 # 124. Disruption of CCR5‐dependent homing of regulatory T cells inhibits tumor growth in a murine model of pancreatic cancer. J Immunol. 2009
 # 125. A natural killer–dendritic cell axis defines checkpoint therapy–responsive tumor microenvironments, Nature medicine, 2018
 # 126. https://en.wikipedia.org/wiki/Heat_shock_protein#Function_in_antigen_presentation
+# 127. Characteristics of anti-CD19 CAR T cell infusion products associated with efficacy and toxicity in patients with large B cell lymphomas, Nature medicine, 2020
+# 128. Single-Cell Analyses Identify Brain Mural Cells Expressing CD19 as Potential Off-Tumor Targets for CAR-T Immunotherapies, Cell, 2020
+
+
+
+
+
