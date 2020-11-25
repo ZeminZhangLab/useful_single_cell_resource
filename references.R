@@ -129,7 +129,9 @@
 # 126. https://en.wikipedia.org/wiki/Heat_shock_protein#Function_in_antigen_presentation
 # 127. Characteristics of anti-CD19 CAR T cell infusion products associated with efficacy and toxicity in patients with large B cell lymphomas, Nature medicine, 2020
 # 128. Single-Cell Analyses Identify Brain Mural Cells Expressing CD19 as Potential Off-Tumor Targets for CAR-T Immunotherapies, Cell, 2020
-
+# 129. https://en.wikipedia.org/wiki/TAP1
+# 130. Primary, Adaptive, and Acquired Resistance to Cancer Immunotherapy, Cell, 2017
+# 131. To TAP or not to TAP: alternative peptides for immunotherapy of cancer, current opinion, 2020
 
 
 
