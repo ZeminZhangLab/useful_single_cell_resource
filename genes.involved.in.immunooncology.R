@@ -338,7 +338,7 @@ genes.mutation.immunotherapy <- c(
   "JAK1", # loss of function or truncating mutation leads to insensitivity to INFG related pathways, i.e. INFG for antiproliferative functions in cancer cells. [70] think JAK is involved in both tumor & immune cells?
   "JAK2", # as JAK1 [70]
   
-  "B2M", # truncating mutation leads to loss of MHC-I [70] common component pf HLA isotypes. [] point mutation, deletions or loss of hyterozygosity observed in non-responders(LOH), LOH more 3-fold in non-responder (30% to 10%) than responder, loss of two copies only in non-responder [73]
+  "B2M", # truncating mutation leads to loss of MHC-I [70] common component pf HLA isotypes. [] point mutation, deletions or loss of hyterozygosity observed in non-responders(LOH), LOH more 3-fold in non-responder (30% to 10%) than responder, loss of two copies only in non-responder [73] longitutal analysis confirmed its role & translational potential [132]
   "TAP1", # involved in adaptive resistance of immunotherapy[130, 131], a membrane transportor on ER that helps cytosolic-degraded proteins into the ER lumen where MHC-I vesicles are assembled [129] 
   
 )
