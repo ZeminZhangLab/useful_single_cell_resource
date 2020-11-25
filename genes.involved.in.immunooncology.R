@@ -58,7 +58,7 @@ NK.cell.markers <- c(
 
 b.cell.markers <- c(
 
-  "CD19", # B cell co-receptor, express on pre-B, B & plasma B [97]
+  "CD19", #TARGET #B cell co-receptor, express on pre-B, B & plasma B [97] CAR T target of B cell lymphoma [127] express in some brain cells that cause toxicity [128]
   "MS4A1", # B cell membrane protein, express on B, function not known but suspected to act as a calcium channel [98] express on B but not plasma B [53]
   "CD79A", # associated with BCR, [99] express on both B & plasma B [53]
   "CD79B", # same as CD79A, but seems to express also on monocytes [53]
