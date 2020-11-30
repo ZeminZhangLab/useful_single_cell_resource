@@ -133,7 +133,8 @@
 # 130. Primary, Adaptive, and Acquired Resistance to Cancer Immunotherapy, Cell, 2017
 # 131. To TAP or not to TAP: alternative peptides for immunotherapy of cancer, current opinion, 2020
 # 132. Genetic Evolution of T-cell Resistance in the Course of Melanoma Progression, clinical cancer research 2014
-# 133. 
+# 133. Netrin G1 promotes pancreatic tumorigenesis through cancer associated fibroblast driven nutritional support and immunosuppression, cancer discovery, 2020
+# 134. IL-15 signaling in NK cell cancer immunotherapy, current opinion, 2017
 
 
 
