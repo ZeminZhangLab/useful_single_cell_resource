@@ -155,7 +155,7 @@ homing.related <- c(
 myeloid.markers <- c(
   
   "ITGAM", 
-  "PTPRC", # also CD45, expressed in all nucleated cells of hematopoietic origin,[135]
+  "PTPRC", # also CD45, expressed in all nucleated cells of hematopoietic origin,[135] kinase, involved in BCR/TCR signaling [136]
   
 )
 
@@ -175,6 +175,18 @@ caf.markers <- c(
 
   "NTNG1", # expressed by CAF resulting in metabolism conditions favorable for tumor cells, also related to IL15 production & NK cell recruitment [133]
   
+)
+
+endothelial.markers <- c(
+
+  "PECAM1", # PECAM1 (Platelet And Endothelial Cell Adhesion Molecule 1), found on the surface of platelets, monocytes, neutrophils, and some types of T-cells, required for leukocyte transendothelial migration (TEM) under most inflammatory conditions [137]
+  "KDR", # also VEGFR2 [138]
+)
+
+epithelial.markers <- c(
+
+  "EPCAM", # Since EpCAM is expressed exclusively in epithelia and epithelial-derived neoplasms, EpCAM can be used as diagnostic marker for various cancers [139]
+
 )
 
 cell.adhesion.molecules <- c(
