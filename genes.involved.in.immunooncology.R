@@ -189,6 +189,13 @@ epithelial.markers <- c(
 
 )
 
+mast.markers <- c(
+
+  "MS4A2", # also FCER1B [140]
+  "FCER1A", # [141]
+
+)
+
 cell.adhesion.molecules <- c(
 
   "ITGA1", # cell adhesion molecule, known as CD49A, alpha unit of integrin [83], express in Trm & Tex [3], express more (same as CD69 & CD103) in tumor specific than bystander CD8 [84]
