@@ -155,7 +155,7 @@ homing.related <- c(
 myeloid.markers <- c(
   
   "ITGAM", 
-  ""
+  "PTPRC", # also CD45, expressed in all nucleated cells of hematopoietic origin,[135]
   
 )
 
