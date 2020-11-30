@@ -136,5 +136,8 @@
 # 133. Netrin G1 promotes pancreatic tumorigenesis through cancer associated fibroblast driven nutritional support and immunosuppression, cancer discovery, 2020
 # 134. IL-15 signaling in NK cell cancer immunotherapy, current opinion, 2017
 # 135. http://en.wikipedia.org/wiki/PTPRC
-
+# 136. https://www.genecards.org/cgi-bin/carddisp.pl?gene=PTPRC
+# 137. https://www.genecards.org/cgi-bin/carddisp.pl?gene=PECAM1
+# 138. https://www.genecards.org/cgi-bin/carddisp.pl?gene=KDR
+# 139. http://en.wikipedia.org/wiki/Epithelial_cell_adhesion_molecule
 
