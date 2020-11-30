@@ -171,6 +171,12 @@ dc.markers <- c(
   "CD69", # differentiates lymph node resident & migratory DCs [120]
 )
 
+caf.markers <- c(
+
+  "NTNG1", # expressed by CAF resulting in metabolism conditions favorable for tumor cells, also related to IL15 production & NK cell recruitment [133]
+  
+)
+
 cell.adhesion.molecules <- c(
 
   "ITGA1", # cell adhesion molecule, known as CD49A, alpha unit of integrin [83], express in Trm & Tex [3], express more (same as CD69 & CD103) in tumor specific than bystander CD8 [84]
@@ -259,7 +265,7 @@ interleukins <- c(
   "IL12RB1", # receptor seem to express in many immune cell types with no obvious pattern (needs more observation) [53]
   
   
-  "IL15", # genentech target # the expression of IL15 doesn't seem robust [53]
+  "IL15", # genentech target # the expression of IL15 doesn't seem robust [53] also works on NK cells [134]
   "IL15RA", # expression low [1~3]
   
   "IL17A", # the '17' that defines Th17 [65] expressed exclusively by Th17 [3], 
@@ -377,7 +383,7 @@ additional.immunotherapy.targets <- c(
   "BRCA1", # TARGET # BRCA1 & BRCA2 are involved in homologous recombination [102]
   "BRCA2", # TARGET # truncating mutations in BRCA2 are associated with superior response compared to those in BRCA1 [102]
   "MAP4K1", # TARGET # BeiGene's potential first-in-class inhibitor, PD1 combination [106] protein HPK1, downregulates TCR signaling [105]
-
+  
 )
 
 stress.induced.genes <- c(
