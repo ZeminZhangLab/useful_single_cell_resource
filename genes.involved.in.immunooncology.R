@@ -17,6 +17,11 @@ dc <- "DC"
 tumor.cell <- "tumor cell"
 macrophage <- "macrophage"
 stromal.cell <- "stromal cell"
+endothelial <- "endothelial"
+epithelial <- "epithelial"
+mast.cell <- "mast"
+fibroblast <- "fibroblast"
+myeloid <- "myeloid cell"
 
 # cd4.cd8 celltype
 cd4.cd8.celltype <- "Cd4Cd8Celltype"
