@@ -140,4 +140,5 @@
 # 137. https://www.genecards.org/cgi-bin/carddisp.pl?gene=PECAM1
 # 138. https://www.genecards.org/cgi-bin/carddisp.pl?gene=KDR
 # 139. http://en.wikipedia.org/wiki/Epithelial_cell_adhesion_molecule
-
+# 140. https://www.genecards.org/cgi-bin/carddisp.pl?gene=MS4A2
+# 141. https://www.genecards.org/cgi-bin/carddisp.pl?gene=FCER1A
