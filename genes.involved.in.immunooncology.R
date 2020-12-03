@@ -327,6 +327,7 @@ chemokines <- c(
   
   "CXCL13", # receptor is CXCR5, CXCL13 is a attractant for B & Tfh to promote TLS formation. CD8 T cell acquire increased expression of CXCL13 along the dysfunctional lineage. Thus Tex should not be considered as inert but with designed functions [5] Expressed in Tex [1~3] together with ITGAE [58]. 
 
+  "CXCL16", # [144] chemoattractant for T cells, binds CXCR6
   
   
   "CXCR4", # ligand is SDF-1. general idea is CXCR4 binds to SDF-1 so that haematepoietic stem cell home to bone marrow, CXCR4 antibody mobilizes stem cell to the blood [100] indiacted to regulate B cell CD20 expression [100] indicated in fig 1d bulk rna that TLS express more [101] validated in [22] patient su001 
@@ -407,7 +408,7 @@ additional.immunotherapy.targets <- c(
   "BRCA1", # TARGET # BRCA1 & BRCA2 are involved in homologous recombination [102]
   "BRCA2", # TARGET # truncating mutations in BRCA2 are associated with superior response compared to those in BRCA1 [102]
   "MAP4K1", # TARGET # BeiGene's potential first-in-class inhibitor, PD1 combination [106] protein HPK1, downregulates TCR signaling [105]
-  
+  "FGFR1", # claimed as target that this gene limits T cell infiltration into tumor [142], does this specifically express on fibroblast? should check [143]
 )
 
 stress.induced.genes <- c(
