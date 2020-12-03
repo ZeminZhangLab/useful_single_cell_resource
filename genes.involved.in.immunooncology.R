@@ -245,10 +245,6 @@ t.cell.transcription.factors <- c(
   "BATF", # claimed to be upregulated by PD1 activdation [46] seem to express in all T cells but significantly higher in Treg. [46] significantly more in Tex [6]
 )
 
-costimulatory.receptors <- c(
-  "CD28", # TARGET # amplify TCR signaling, induce proliferation & IL2 production [41] expressed in GZMK T cells, T naive but not Teff, Tex [1~3] CTLA4 is upregulated following T cell activation, with CD28 subsequently downregulated. [41, 42] the question is, will Tex work without CD28? CD28 is dephosphorelayed by SHP2 recruited by PDL1-PD1 activation, suggests CD28 is the primary target of PD1 activation. [43] failed in clinical trial, perhaps due to super efficiency [44]
-)
-
 coinhibitory.receptors <-c(
   "LAG3", # TARGET # starts from Teff, climaxed at Tex [1~3], interacts with MHC-II [41]  MHCII binding may distinguish it from other targets [45, 51]
   "CTLA4", # TARGET # sequestering target receptors or ligands[47]
@@ -258,9 +254,10 @@ coinhibitory.receptors <-c(
 )
 
 costimulatory.receptors <-c(
+  "CD28", # TARGET # amplify TCR signaling, induce proliferation & IL2 production [41] expressed in GZMK T cells, T naive but not Teff, Tex [1~3] CTLA4 is upregulated following T cell activation, with CD28 subsequently downregulated. [41, 42] the question is, will Tex work without CD28? CD28 is dephosphorelayed by SHP2 recruited by PDL1-PD1 activation, suggests CD28 is the primary target of PD1 activation. [43] failed in clinical trial, perhaps due to super efficiency [44]
   "TNFRSF4", # also known as OX-40, expresses in TNFRSF9+ Treg, but not CD8 Tex. express in CD4 Tex [2]
   "TNFRSF9", # also known as 4-1BB,  very interesting to express only in terminal Tex & Treg, why would 'stimulatory' be on Tex? [1~3] express on antigen-experienced Treg [2]
-  ""
+  "ICOS", # expressed highly in Treg [3] depletion antibody results in increased Teff:Treg ratio [145]
 )
 
 inteferons <- c(
@@ -409,6 +406,7 @@ additional.immunotherapy.targets <- c(
   "BRCA2", # TARGET # truncating mutations in BRCA2 are associated with superior response compared to those in BRCA1 [102]
   "MAP4K1", # TARGET # BeiGene's potential first-in-class inhibitor, PD1 combination [106] protein HPK1, downregulates TCR signaling [105]
   "FGFR1", # claimed as target that this gene limits T cell infiltration into tumor [142], does this specifically express on fibroblast? should check [143]
+  "SerpinB9", # claimed is an inhibitor of Serine protease GZMB [146]
 )
 
 stress.induced.genes <- c(
