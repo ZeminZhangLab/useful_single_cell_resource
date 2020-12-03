@@ -145,3 +145,5 @@
 # 142. Immune Remodeling of the Extracellular Matrix Drives Loss of Cancer Stem Cells and Tumor Rejection, cancer immunology research 2020
 # 143. https://www.genecards.org/cgi-bin/carddisp.pl?gene=FGFR1
 # 144. http://en.wikipedia.org/wiki/CXCL16
+# 145. An antibody targeting ICOS increases intratumoral cytotoxic to regulatory T cell ratio and induces tumor regression, Cancer immunology research, 2020
+# 146. Direct Tumor Killing and Immunotherapy through Anti-SerpinB9 Therapy, Cell, 2020 
