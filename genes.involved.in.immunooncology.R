@@ -407,6 +407,7 @@ additional.immunotherapy.targets <- c(
   "MAP4K1", # TARGET # BeiGene's potential first-in-class inhibitor, PD1 combination [106] protein HPK1, downregulates TCR signaling [105]
   "FGFR1", # claimed as target that this gene limits T cell infiltration into tumor [142], does this specifically express on fibroblast? should check [143]
   "SerpinB9", # claimed is an inhibitor of Serine protease GZMB [146]
+  "PAK4", # kinase identified in Kinome-wide screening involved in tumor associated endothelial cell & vascularization, inhibition promotes T cell infiltration to tumor [147]
 )
 
 stress.induced.genes <- c(
