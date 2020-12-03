@@ -142,3 +142,6 @@
 # 139. http://en.wikipedia.org/wiki/Epithelial_cell_adhesion_molecule
 # 140. https://www.genecards.org/cgi-bin/carddisp.pl?gene=MS4A2
 # 141. https://www.genecards.org/cgi-bin/carddisp.pl?gene=FCER1A
+# 142. Immune Remodeling of the Extracellular Matrix Drives Loss of Cancer Stem Cells and Tumor Rejection, cancer immunology research 2020
+# 143. https://www.genecards.org/cgi-bin/carddisp.pl?gene=FGFR1
+# 144. http://en.wikipedia.org/wiki/CXCL16
