@@ -42,6 +42,11 @@ cd4.Th17 <- "CD4+ Th17" # use IL23R
 cd4.Tem <- "CD4+ T effector memory"
 cd4.others <- "CD4+ others"
 
+# myeloid subsets
+pDC <- "pDC"
+cDC1 <- "cDC1"
+cDC2 <- "cDC2"
+
 #================================================================#
 # useful markers
 #================================================================#
@@ -175,6 +180,32 @@ dc.markers <- c(
   "CD103", # differentiates lymph node resident & migratory DCs [120]
   "CD69", # differentiates lymph node resident & migratory DCs [120]
 )
+
+cDC1.markers <- c(
+
+  "CLEC9A", # involved in cross-presentation [150] used in [149]
+
+)
+
+# use in mouse, used in [114]
+cDC2.markers <- c(
+  
+  "Cd209a",
+  "H2-DMb1",
+  
+)
+
+pDC.markers <- c(
+
+  "LILRA4", # Lil4ra not in mouse! # highly expressed in pDC [148] used as marker in [149]
+)
+
+# use in mouse, used in [114]
+pDC.markers <- c(
+  "Siglech", "Ccr9", "Tcf4"
+)
+
+
 
 caf.markers <- c(
 
