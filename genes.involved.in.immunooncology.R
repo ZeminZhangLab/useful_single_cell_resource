@@ -51,6 +51,83 @@ cDC2 <- "cDC2"
 # useful markers
 #================================================================#
 
+
+#++++++++++++++++
+# mouse markers
+#++++++++++++++++
+
+mouse.conventional.T.cell.markers <- c(
+  'Cd3d',
+  'Cd4',
+  'Cd8a',
+  'Foxp3'
+) 
+
+mouse.b.cell.markers <- c(
+
+  "Cd19",
+  "Ms4a1", 
+  "Cd79a", 
+  "Cd79b"
+)
+
+mouse.myeloid.markers <- c(
+  
+  "Ptprc"
+  
+)
+
+mouse.endothelial.markers <- c(
+  
+  "Pecam1",
+  "Kdr"
+  
+)
+
+mouse.epithelial.markers <- c(
+  
+  "Epcam"
+  
+)
+
+mouse.pancreatic.cell.markers <- c(
+  "Ins1", # beta cell
+  "Gcg", # Alpha cell
+  "Prss1", # Acinar
+  "Prom1" # ductal
+)
+
+mouse.fibroblast.markers <- c(
+  
+  "Col1a2"
+)
+
+mouse.mast.markers <- c(
+   "Ms4a2", 
+   "Fcer1a"
+)
+
+mouse.smooth.muscle.cell.markers <-c(
+  "Myh11", 
+  "Acta2", 
+  "Des", 
+  "Tagln", 
+  "Rgs5"
+)
+
+mouse.pericyte.markers <- c(
+  "Pdgfrb", 
+  "Cspg4", 
+  "Anpep", 
+  "Acta2", 
+  "Des"
+  
+)
+
+#=======
+
+#=======
+
 ITGAE <- "ITGAE" # also CD103 [18], identifies Tex (also claimed to distinguish Tumor active with bystander) [87] seem to distinguish CD69 in that CD103 more in Tex & CD69 more in Trm (may need more look but clearly different)
 
 conventional.T.cell.markers <- c(
