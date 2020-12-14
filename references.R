@@ -157,6 +157,6 @@
 # 154. Genomic Classification and Prognosis in Acute Myeloid Leukemia, NEJM, 2016
 # 155. Gilteritinib significantly prolongs overall survival in patients with FLT3-mutated relapsed/refractory acute myeloid leukemia: results from the phase III ADMIRAL trial [abstract]. In: Proceedings of the Annual Meeting of the American Association for Cancer Research 2019.
 # 156. https://www.onclive.com/view/gilteritinib-takes-step-toward-chinese-approval-for-emflt3em-aml
-
-
-
+# 157. http://en.wikipedia.org/wiki/DNA_(cytosine-5)-methyltransferase_3A
+# 158. Clonal Selection with RAS Pathway Activation Mediates Secondary Clinical Resistance to Selective FLT3 Inhibition in Acute Myeloid Leukemia, cancer discovery 2019
+# 159. https://www.sciencedirect.com/topics/medicine-and-dentistry/npm1
