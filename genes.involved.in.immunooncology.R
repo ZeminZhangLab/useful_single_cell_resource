@@ -482,6 +482,11 @@ genes.mutation.immunotherapy <- c(
   "PBRM1", # identified in some cohort but failed to translate into the clinic [151], comments say that single-gene mutation is hard to reflect the complex biology behind ICI [152]
 )
 
+genes.mutation.oncogenic <- c(
+  "DNMT3A", # DNA methyl transferase [157] identified in the tumor evolution of FLT3 inhibitor resistance [158]
+  "NPM1", # a common mutation in AML originally a shuttle protein between nucleus membrane & plasma [159] identified in cloncal evolution following FLT3 inhibition resistance [158]
+)
+
 histology.markers <- c(
   
   "S100", # tumor marker for melanoma, not necessarily for other cancer type [71]
