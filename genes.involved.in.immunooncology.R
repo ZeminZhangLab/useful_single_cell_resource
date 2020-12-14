@@ -447,7 +447,9 @@ other.cytokines <- c(
 
   "VEGFA", # can be expressed by Macrophage [53] & CD4 (claimed by [108] but not in [53]) # since renal tumor is also treated with VEGF inhibitor [109] this is worth look at
   
-  "FLT3", # also CD135, expressed in many hematopoietic progenitor cells [121] expressed in some Macro & DC [53] mentioned to be used by NK to recruit DC [125]
+  "FLT3L", # ligand of FLT3 [153]
+  "FLT3", # TARGET, most common mutation in AML [154], inhibitor shows improved survival over standard-of-care chemotherapy 2019 [155] submitted in China for approval 2020.[156] 
+          # also CD135, expressed in many hematopoietic progenitor cells [121] expressed in some Macro & DC [53] mentioned to be used by NK to recruit DC [125]
   
 )
 
