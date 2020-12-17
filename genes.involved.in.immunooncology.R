@@ -380,6 +380,7 @@ interleukins <- c(
   "IL2RG", # The common gamma chain (γc) (or CD132), also known as interleukin-2 receptor subunit gamma or IL-2RG, is a cytokine receptor sub-unit that is common to the receptor complexes for at least six different interleukin receptors: IL-2, IL-4, IL-7, IL-9, IL-15 and interleukin-21 receptor. [61] expressed on all TILs [1]
   
   "IL2", # TODO, express in Treg, responsible for t cell maintainence [62] # tested in combination with PDL1 blockade and worked (but IL2RA expressed in Treg, IL15 chosen by genentech as 'better-in-class')[57] 
+  "IL2RA", # Treg depletion therapy target summarized here [160]
   
   ""
   "IL7R", # in pan-T ranked as a marker. However, expressed in almost all cd8&4 except exhausted [1~3]. involved in VDJ recombination [4]. suggested in Melanoma & BCC, could be skin-cancer enriched? [5] but not validated in [6]. Don't suggest to use when assigning clusters. Could use in retrospection. In fact, almost useless in defining Naive.
