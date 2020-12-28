@@ -141,6 +141,7 @@ lujun.top.marker.dataframe
 
 DimPlot(object = data, reduction = "tsne", cells.highlight = WhichCells (data,idents = i), )+theme(legend.position = "none") + coord_fixed(1:1) + ggtitle(paste0(label = "Cluster ",i))
 
+FeaturePlot(lujun.filtered.seurat, features = c("Ptprc"), coord.fixed = T, cols = c("grey", "yellow", "red"))
 # ---------------------------
 
 # ---------------------------
