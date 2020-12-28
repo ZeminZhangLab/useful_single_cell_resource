@@ -29,7 +29,7 @@ sampleID.to.treatment.list <- list(
 
 # meta table column names
 clusterID <- "clusterID"
-meta.sampleID <- "sampleID"
+sampleID <- "sampleID"
 
 # ---------------------------
 
@@ -71,59 +71,77 @@ head(colnames(yikeyuan.combined.seurat))
 table(yikeyuan.combined.seurat$orig.ident)
 
 # ---------------------------
+
 # visualize QC metrics
 yikeyuan.combined.seurat[["percent.mt"]] <- PercentageFeatureSet(yikeyuan.combined.seurat, pattern = "^mt-")
 VlnPlot(yikeyuan.combined.seurat, features = c("nFeature_RNA", "nCount_RNA", "percent.mt"), ncol = 3)
-# ---------------------------
-# feature selection
 
+# ---------------------------
+# parameters to configure
+temporary.seurat <- lujun.filtered.seurat
 number.of.features <- 2000
 
-yikeyuan.filtered.seurat <- NormalizeData(yikeyuan.filtered.seurat, normalization.method = "LogNormalize")
-yikeyuan.filtered.seurat <- FindVariableFeatures(yikeyuan.filtered.seurat, nfeatures = number.of.features)
-yikeyuan.top.HVG <- VariableFeatures(yikeyuan.filtered.seurat)[1:10]
+# auto-code HVG
+temporary.seurat <- NormalizeData(temporary.seurat, normalization.method = "LogNormalize")
+temporary.seurat <- FindVariableFeatures(temporary.seurat, nfeatures = number.of.features)
+plot.HVG <- VariableFeatures(temporary.seurat)[1:10]
+VariableFeaturePlot(temporary.seurat) %>% 
+  LabelPoints(points = plot.HVG)
+# ggsave(paste0(base.figure.dir, "variable_feature_selection.pdf"), variable.feature.plot)
 
-VariableFeaturePlot(yikeyuan.filtered.seurat) %>% 
-  LabelPoints(points = yikeyuan.top.HVG)
+# auto-code PCA
+temporary.all.genes <- rownames(temporary.seurat)
+temporary.seurat <- ScaleData(temporary.seurat, features =temporary.all.genes)
+temporary.seurat <- RunPCA(temporary.seurat)
 
-as.data.frame(VariableFeatures(yikeyuan.filtered.seurat))
+# switch back
+lujun.filtered.seurat <- temporary.seurat
+rm(temporary.seurat)
 
-# scale data
-yikeyuan.all.genes <- rownames(yikeyuan.filtered.seurat)
-yikeyuan.filtered.seurat <- ScaleData(yikeyuan.filtered.seurat, features =yikeyuan.all.genes)
-
-variable.feature.plot <- VariableFeaturePlot(yikeyuan.filtered.seurat) %>% 
-  LabelPoints(points = yikeyuan.top.HVG[1:10])
-ggsave(paste0(base.figure.dir, "variable_feature_selection.pdf"), variable.feature.plot)
-
-yikeyuan.filtered.seurat <- RunPCA(yikeyuan.filtered.seurat)
-DimPlot(yikeyuan.filtered.seurat, reduction = "pca")
-pca.plot<- DimPlot(yikeyuan.filtered.seurat, reduction = "pca", group.by = "sampleID") + 
+DimPlot(lujun.filtered.seurat, reduction = "pca")
+pca.plot<- DimPlot(lujun.filtered.seurat, reduction = "pca", group.by = sampleID) + 
   coord_fixed()
 pca.plot
-ggsave(paste0(base.figure.dir, "pca_plot.pdf"), pca.plot)
+# ggsave(paste0(base.figure.dir, "pca_plot.pdf"), pca.plot)
+# ---------------------------
 
-
+# configure
+temporary.seurat <- lujun.filtered.seurat
 number.of.PC.used = 20
-yikeyuan.filtered.seurat <- FindNeighbors(yikeyuan.filtered.seurat, dims = 1:number.of.PC.used)
-yikeyuan.filtered.seurat <- FindClusters(yikeyuan.filtered.seurat)
-yikeyuan.filtered.seurat[[clusterID]] <- FetchData(yikeyuan.filtered.seurat, c("ident"))$ident
 
-yikeyuan.filtered.seurat <- RunUMAP(yikeyuan.filtered.seurat, dims = 1:number.of.PC.used)
+# auto code
+temporary.seurat <- FindNeighbors(temporary.seurat, dims = 1:number.of.PC.used)
+temporary.seurat <- FindClusters(temporary.seurat)
+temporary.seurat[[clusterID]] <- FetchData(temporary.seurat, c("ident"))$ident
+temporary.seurat <- RunUMAP(temporary.seurat, dims = 1:number.of.PC.used)
 
-DimPlot(yikeyuan.filtered.seurat, label=T, group.by = clusterID)
-DimPlot(yikeyuan.filtered.seurat, group.by = meta.sampleID)
+# switch back
+lujun.filtered.seurat <- temporary.seurat
 
+DimPlot(lujun.filtered.seurat, label=T, group.by = clusterID)
+DimPlot(lujun.filtered.seurat, group.by = sampleID)
 
-yikeyuan.markers <- FindAllMarkers(yikeyuan.filtered.seurat, only.pos = TRUE, min.pct = 0.25, logfc.threshold = 0.25)
+# ---------------------------
+# configure
+temporary.seurat <- lujun.filtered.seurat
 
-yikeyuan.marker.dataframe <- yikeyuan.markers %>% group_by(cluster) %>% top_n(n = 15, wt = avg_logFC)
-yikeyuan.marker.dataframe
+# auto code
+temporary.markers <- FindAllMarkers(temporary.seurat, only.pos = TRUE, min.pct = 0.25, logfc.threshold = 0.25)
+temporary.top.marker.dataframe <- temporary.markers %>% group_by(cluster) %>% top_n(n = 15, wt = avg_logFC)
+temporary.top.marker.dataframe
+
+# switch back
+lujun.filtered.seurat <- temporary.seurat
+lujun.markers <- temporary.markers
+lujun.top.marker.dataframe <- temporary.top.marker.dataframe
+
+lujun.top.marker.dataframe
 
 # ---------------------------
 
 # ---------------------------
 
+# ---------------------------
 clusterID.to.clusterName.list <- list(
   
   "0":,
