@@ -481,6 +481,10 @@ genes.mutation.immunotherapy <- c(
   "TAP1", # involved in adaptive resistance of immunotherapy[130, 131], a membrane transportor on ER that helps cytosolic-degraded proteins into the ER lumen where MHC-I vesicles are assembled [129] 
   
   "PBRM1", # identified in some cohort but failed to translate into the clinic [151], comments say that single-gene mutation is hard to reflect the complex biology behind ICI [152]
+
+  # dMMR reflected by MSI in CRC
+  "POLD, POLE, or MYH", # as mentioned by [161]
+
 )
 
 genes.mutation.oncogenic <- c(
