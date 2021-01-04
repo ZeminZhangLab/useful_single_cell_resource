@@ -486,6 +486,9 @@ genes.mutation.immunotherapy <- c(
   "POLD, POLE, or MYH", # as mentioned by [161]
   
   "MLH1", "PMS2", # mentioned in crc study [162], essential roles in DNA repair
+  
+  # impairs T cell infiltration
+  "WNT", # [163] in melanoma prevents T cell infiltration, scrapped in [162]
 
 )
 
