@@ -491,6 +491,7 @@ genes.mutation.immunotherapy <- c(
   # impairs T cell infiltration
   "WNT", # [163] in melanoma prevents T cell infiltration, scrapped in [162]
   
+  "ALK", "EGFR", # low response in NSCLC PD1 treatment [165]
 
 
 )
