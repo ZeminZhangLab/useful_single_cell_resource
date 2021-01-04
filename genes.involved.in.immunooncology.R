@@ -484,6 +484,8 @@ genes.mutation.immunotherapy <- c(
 
   # dMMR reflected by MSI in CRC
   "POLD, POLE, or MYH", # as mentioned by [161]
+  
+  "MLH1", "PMS2", # mentioned in crc study [162], essential roles in DNA repair
 
 )
 
