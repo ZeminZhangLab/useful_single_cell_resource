@@ -478,6 +478,7 @@ genes.mutation.immunotherapy <- c(
   "JAK2", # as JAK1 [70]
   
   "B2M", # truncating mutation leads to loss of MHC-I [70] common component pf HLA isotypes. [] point mutation, deletions or loss of hyterozygosity observed in non-responders(LOH), LOH more 3-fold in non-responder (30% to 10%) than responder, loss of two copies only in non-responder [73] longitutal analysis confirmed its role & translational potential [132]
+      # HLA tools available [164]
   "TAP1", # involved in adaptive resistance of immunotherapy[130, 131], a membrane transportor on ER that helps cytosolic-degraded proteins into the ER lumen where MHC-I vesicles are assembled [129] 
   
   "PBRM1", # identified in some cohort but failed to translate into the clinic [151], comments say that single-gene mutation is hard to reflect the complex biology behind ICI [152]
@@ -489,6 +490,8 @@ genes.mutation.immunotherapy <- c(
   
   # impairs T cell infiltration
   "WNT", # [163] in melanoma prevents T cell infiltration, scrapped in [162]
+  
+
 
 )
 
