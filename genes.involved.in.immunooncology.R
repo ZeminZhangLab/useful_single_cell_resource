@@ -288,6 +288,8 @@ caf.markers <- c(
 
   "NTNG1", # expressed by CAF resulting in metabolism conditions favorable for tumor cells, also related to IL15 production & NK cell recruitment [133]
   
+  "PRELP", # therapeutic target, linked to MMP & VEGF [166]
+  
 )
 
 endothelial.markers <- c(
