@@ -419,6 +419,9 @@ chemokines <- c(
   "CCL2", # not expressed by TIL or TIM [53]
   "CCR2", # Key functional receptor for CCL2 but can also bind CCL7 and CCL12. Its binding with CCL2 on monocytes and macrophages mediates chemotaxis and migration [111] expressed in myeloid & some T & B cell [53]
   
+  "CCR4", # Treg depletion target
+  "CCL22", # ligand of CCR4, secreted by DC & macro, related to Treg recruitment.[167] upregulated by EGFR mutation. [168]
+  
   "CCR7", # well-establishes to Lymph-node homing [63]
   
   "CCL5", # as a chemo-attractant for blood monocytes, T helper cells, etc, [77] induced by IFN-γ, TNFα, or IL-1 in T cells [78] expressed in T & NK [53] expressed by NK to recruit certain DC [123]
