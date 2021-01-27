@@ -8,7 +8,7 @@ FeaturePlot(su001.cd8.seurat, features = c("MKI67"),
   split.by = "treatment", ncol = 2, cols=c("grey", "yellow", "red"), coord.fixed = T, order = T, pt.size = 0.1)
   
 # TCF7
-FeaturePlot(su009.cd4.seurat, features = c("FOXP3", "CCR8"), 
+FeaturePlot(su009.cd4.seurat, features = c("TCF7"), 
             split.by = "treatment", cols=c("grey", "yellow", "red"), coord.fixed = T, order = T, pt.size = 0.1)
 # PDCD1
 # GZMB
