@@ -430,6 +430,9 @@ chemokines <- c(
   "CCL19", # CCR7 ligands expressed by HEV epithelial [63], not expressed by T cells [3]
   "CCL21", # CCR7 ligands expressed by HEV epithelial [63], not expressed by T cells [3]
   
+  "CXCL1", # need reference
+  "CXCR2", # MDSC depletion target. [169]
+  
   "CXCL9", # expressed sparsely by certain TAM [53, 114] binds CXCR3 to recruit tumor-infiltrating T cell [117] 
   "CXCL10", # expressed sparsely by certain TAM [53, 114] also binds CXCR3 to recruit tumor-infiltrating T cell [118]
   "CXCL11", # expression not detected [53] also binds CXCR3 to recruit tumor-infiltrating T cell [119]
