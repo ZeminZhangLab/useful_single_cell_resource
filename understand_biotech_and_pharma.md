@@ -1,5 +1,7 @@
 # think as pharma think
 
+read this: 信达刘勇军：新药临床转化效率与策略决定其上市进度与商业价值
+
 ### life history of a drug
 1.  first discovered in academia,
 2.  consolidated in academia ,
