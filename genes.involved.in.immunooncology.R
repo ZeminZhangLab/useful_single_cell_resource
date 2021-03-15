@@ -446,6 +446,8 @@ chemokines <- c(
   
   "CXCR4", # ligand is SDF-1. general idea is CXCR4 binds to SDF-1 so that haematepoietic stem cell home to bone marrow, CXCR4 antibody mobilizes stem cell to the blood [100] indiacted to regulate B cell CD20 expression [100] indicated in fig 1d bulk rna that TLS express more [101] validated in [22] patient su001 
 
+  "CX3CL1", # can be either soluble or membrane-bound. membrane-bound form binds integrin regulating leukocyte adhesion to endothelium. soluble-form as chemoattractant for CX3CR1. [170] mentioned as indicating poor prognosis for Atezoluzumab [171]
+  
   "XCL1", # secreted by NK, CD8 etc, binds to XCR1 to recruit DC [122, 53] expressed by NK to recruit DC [123]
   "XCL2", # similar to XCL1 but not in mouse [122] 
   "XCR1", # mainly expressed by DC [122]
