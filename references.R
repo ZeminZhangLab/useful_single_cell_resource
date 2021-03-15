@@ -170,7 +170,9 @@
 # 167.  http://en.wikipedia.org/wiki/CCL22
 # 168.  Antitumour immunity regulated by aberrant ERBB family signalling, Nat reviews, 2021
 # 169.  Targeted Deletion of CXCR2 in Myeloid Cells Alters the Tumor Immune Environment to Improve Antitumor Immunity, cancer immunology research, 2021
-
+# 170.  https://www.genecards.org/cgi-bin/carddisp.pl?gene=CX3CL1
+# 171.  Predictive correlates of response to the anti-PD-L1 antibody MPDL3280A in cancer patients, Nature, 2014
+# 
 
 
 
