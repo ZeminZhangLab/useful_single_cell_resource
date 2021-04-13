@@ -168,3 +168,81 @@ clusterID.to.clusterName.list <- list(
   "18":
   
 )
+
+
+
+
+
+
+# PCC search -----------------
+
+seurat.to.use <- nsclc.t.cell.seurat.tidy
+genes.of.interest <- c("CCR8")
+
+scaled.expression.matrix <- seurat.to.use@assays$RNA@scale.data
+# scaled.expression.matrix[1:3, 1:3]
+correlation.coefficients <- c()
+for (i in rownames(scaled.expression.matrix)){
+  correlation.coefficients <- c(
+    correlation.coefficients,
+    cor(scaled.expression.matrix[genes.of.interest,], scaled.expression.matrix[i,])
+  )
+}
+correlation.table <- data.frame(PCC=correlation.coefficients, genes=rownames(scaled.expression.matrix))
+correlation.table <- correlation.table %>% arrange(desc(PCC))
+correlation.table
+
+
+
+
+
+
+# plot many genes -----------------------------
+slc.genes <- slc.genes.table$Symbol
+
+plot.genes <- c()
+gene.count <- 0
+for (i in slc.genes) {
+  
+  if (gene.count == 9){ # note this omits the last genes which didn't meet a complete unit vector
+    my.plot <- FeaturePlot(hcc.seurat, features = plot.genes, coord.fixed = T, cols = c("grey", "yellow", "red"), order = T)
+    ggsave(plot = my.plot, paste0("../output_figure/", i, ".png"), width = 12, height = 12)
+    plot.genes <- c()
+    gene.count <- 0
+  }
+  
+  plot.genes <- c(plot.genes, i)
+  gene.count <- gene.count + 1
+}
+
+
+
+
+
+# GO & KEGG over-representation analysis -----------------
+
+# -----------------
+nsclc.marker.genes <- readxl::read_excel("Global_characterization_marker_genes.xlsx", skip = 1, sheet = 3)
+table(nsclc.marker.genes$Cluster)
+nsclc.treg.markers <- nsclc.marker.genes$`Gene ID`
+nsclc.treg.markers
+
+
+# -----------------
+suppressMessages(library(clusterProfiler))
+# http://yulab-smu.top/clusterProfiler-book/chapter12.html#pathview-from-pathview-package
+library(org.Hs.eg.db)
+library(enrichplot)
+
+nsclc.treg.markers.kegg.enrichment <- enrichKEGG(gene = nsclc.treg.markers,
+                 organism     = 'hsa',
+                 pvalueCutoff = 0.05)
+
+nsclc.treg.markers.kegg.enrichment <- setReadable(nsclc.treg.markers.kegg.enrichment, OrgDb = org.Hs.eg.db, keyType="ENTREZID")
+as.data.frame(nsclc.treg.markers.kegg.enrichment)
+barplot(nsclc.treg.markers.kegg.enrichment, showCategory=40)
+
+browseKEGG(nsclc.treg.markers.kegg.enrichment, "hsa05230") # hsa05230	Central carbon metabolism in cancer 
+FeaturePlot(nsclc.t.cell.seurat.tidy, features = c("LDHB", "MYC", "PKM", "SCO2", "LDHA", "PGAM1", "HIF1A", "PFKP", "SLC7A5", "SLC1A5"), coord.fixed = T, cols = c("grey", "yellow", "red"), order = T) # hsa05230	Central carbon metabolism in cance  
+
+browseKEGG(nsclc.treg.markers.kegg.enrichment, "hsa05230")
