@@ -76,6 +76,11 @@ table(yikeyuan.combined.seurat$orig.ident)
 yikeyuan.combined.seurat[["percent.mt"]] <- PercentageFeatureSet(yikeyuan.combined.seurat, pattern = "^mt-")
 VlnPlot(yikeyuan.combined.seurat, features = c("nFeature_RNA", "nCount_RNA", "percent.mt"), ncol = 3)
 
+# set UMAP values
+matrix.for.umap.assignment <- as.matrix(TNBC.Myeloid.Tumor_metadata[, c("Sub_UMAP_1", "Sub_UMAP_2")])
+colnames(matrix.for.umap.assignment) <- c("UMAP_1", "UMAP_2")
+TNBC.Myeloid.tumor.seurat@reductions$umap@cell.embeddings <- matrix.for.umap.assignment
+
 # ---------------------------
 # parameters to configure
 temporary.seurat <- lujun.filtered.seurat
