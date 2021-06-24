@@ -174,6 +174,9 @@ clusterID.to.clusterName.list <- list(
   
 )
 
+why.t.cell.seurat[["clusterName"]] <- unlist(why.t.cell.clusterID.to.clusterName.list[why.t.cell.seurat$clusterID])
+
+DimPlot(why.t.cell.seurat, group.by = "clusterName", label = T)
 
 
 
